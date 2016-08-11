@@ -124,4 +124,21 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://decatec.visualstudio.com/
+		SccProjectUniqueName0 = Wsapm.Setup\\Wsapm.Setup.wixproj
+		SccProjectName0 = .
+		SccAuxPath0 = https://decatec.visualstudio.com
+		SccLocalPath0 = .
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectFilePathRelativizedFromConnection0 = Wsapm.Setup\\
+		SccProjectUniqueName1 = Wsapm.Setup.Bootstrapper\\Wsapm.Setup.Bootstrapper.wixproj
+		SccProjectName1 = .
+		SccAuxPath1 = https://decatec.visualstudio.com
+		SccLocalPath1 = .
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectFilePathRelativizedFromConnection1 = Wsapm.Setup.Bootstrapper\\
+	EndGlobalSection
 EndGlobal
