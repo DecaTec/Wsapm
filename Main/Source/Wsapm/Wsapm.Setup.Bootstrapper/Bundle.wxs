@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:bal="http://schemas.microsoft.com/wix/BalExtension">
+
+  <!-- Product version. Refer to it with "$(var.ProductVersion)" -->
+  <?define ProductVersion = "1.5.1.0"?>
+  <!-- Upgrade code. Refer to it with "$(var.UpgradeCode)" -->
+  <!-- NEVER CHANGE THE UPGRADECODE -->
+  <?define UpgradeCode = "{6A1E9768-6FEE-4282-8C16-AFA43DAC4751}"?>
+  
+  <!-- General product name. Refer to it with "$(var.WindowsServerAdvancedPowerManagement)" -->
+  <?define WindowsServerAdvancedPowerManagement = "Windows Server Advanced Power Management"?>
+  <!-- General manufacturer name. Refer to it with "$(var.Manufacturer)" -->
+  <?define Manufacturer = "decatec.de"?>
+  <!-- Homepage URL. Refer to it with "$(var.HomePageURL)" -->
+  <?define HomePageURL = "https://www.decatec.de"?>
+  <?define lang_de = "UserLanguageID = 1031 OR UserLanguageID = 2055 OR UserLanguageID = 3079 OR UserLanguageID = 4103 OR UserLanguageID = 5127"?>
+
+  <Bundle Name="$(var.WindowsServerAdvancedPowerManagement)" Version="$(var.ProductVersion)" Manufacturer="$(var.Manufacturer)" UpgradeCode="$(var.UpgradeCode)" Compressed="yes" 
+          IconSourceFile="Resources\app.ico" AboutUrl="$(var.HomePageURL)" Copyright="Copyright (c) 2014 $(var.Manufacturer)">
+    
+    <Variable Name="InstallFolder" Type="string" Value="[ProgramFilesFolder]$(var.WindowsServerAdvancedPowerManagement)" />
+
+    <bal:Condition Message="#(loc.WrongOSVersion)">VersionNT >= v5.1</bal:Condition>
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLargeLicense">
+      <bal:WixStandardBootstrapperApplication ShowVersion="yes" SuppressRepair="yes" LicenseFile="$(var.Wsapm.Setup.ProjectDir)\Resources\en\EULA_en.rtf" LaunchTarget="[InstallFolder]\Wsapm.exe"/>
+      
+      <Payload Id="license_de-de" Compressed="yes" Name="1031\license.rtf" SourceFile="$(var.Wsapm.Setup.ProjectDir)\Resources\de\EULA_de.rtf"/>
+      <Payload Id="license_en-us" Compressed="yes" Name="1033\license.rtf" SourceFile="$(var.Wsapm.Setup.ProjectDir)\Resources\en\EULA_en.rtf"/>
+      <Payload Id="loc_de-de" Compressed="yes" Name="1031\thm.wxl" SourceFile="Resources\de\Wsapm.Bootstrapper.de-de.wxl"/>
+      <Payload Id="loc_en-us" Compressed="yes" Name="1033\thm.wxl" SourceFile="Resources\en\Wsapm.Bootstrapper.en-us.wxl"/>
+    </BootstrapperApplicationRef>
+
+		<Chain>
+      <PackageGroupRef Id="NetFx40ClientRedist"/>
+      <MsiPackage Id="WaspmSetupDe" SourceFile="$(var.Wsapm.Setup.de-de.TargetPath)" Compressed="yes" Vital="yes" DisplayInternalUI="no" Cache="yes" Permanent="no" InstallCondition="$(var.lang_de)">
+        <MsiProperty Name="INSTALLFOLDER" Value="[InstallFolder]" />
+      </MsiPackage>
+      <MsiPackage Id="WaspmSetupEn" SourceFile="$(var.Wsapm.Setup.en-us.TargetPath)" Compressed="yes" Vital="yes" DisplayInternalUI="no" Cache="yes" Permanent="no" InstallCondition="NOT $(var.lang_de)">
+        <!--<Payload Id="deMst" Name="deMst" SourceFile="$(var.Wsapm.Setup.TargetDir)\en-us\de-de.mst" Compressed="yes"/>
+        <MsiProperty Name="INSTALLFOLDER" Value="[InstallFolder]" />
+        <?if $(var.lang_de) ?>
+        <MsiProperty Name="TRANSFORMS" Value="deMst"/>
+        <?endif?>-->
+      </MsiPackage>
+		</Chain>
+	</Bundle> 
+</Wix>

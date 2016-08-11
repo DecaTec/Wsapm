@@ -1,0 +1,1359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutWindow_Caption" xml:space="preserve">
+    <value>Windows Server Advanced Power Management</value>
+    <comment>Caption of about window</comment>
+  </data>
+  <data name="AboutWindow_ChangelogFileName" xml:space="preserve">
+    <value>Wsapm.Changelog.Changelog_en.txt</value>
+    <comment>File name of changelog (embedded resource)</comment>
+  </data>
+  <data name="AboutWindow_ChangelogHeader" xml:space="preserve">
+    <value>Changelog</value>
+    <comment>Caption of changelog</comment>
+  </data>
+  <data name="AboutWindow_Copyright" xml:space="preserve">
+    <value>Copyright © 2014 decatec.de</value>
+    <comment>Copyright string</comment>
+  </data>
+  <data name="AboutWindow_MoreInfo" xml:space="preserve">
+    <value>For more information, visit:</value>
+    <comment>More information string</comment>
+  </data>
+  <data name="AboutWindow_Title" xml:space="preserve">
+    <value>About - Windows Server Advanced Power Management</value>
+    <comment>Title of about window</comment>
+  </data>
+  <data name="AboutWindow_Tools" xml:space="preserve">
+    <value>This program is using the following libraries and tools:</value>
+    <comment>Libraries and tools string</comment>
+  </data>
+  <data name="AboutWindow_Version" xml:space="preserve">
+    <value>Version {0}</value>
+    <comment>Version string; {0} =Version</comment>
+  </data>
+  <data name="AddNetworkMachineWindow_IP" xml:space="preserve">
+    <value>IP address:</value>
+    <comment>IP label</comment>
+  </data>
+  <data name="AddNetworkMachineWindow_Name" xml:space="preserve">
+    <value>Name:</value>
+    <comment>Name label</comment>
+  </data>
+  <data name="AddNetworkMachineWindow_NoInfoError" xml:space="preserve">
+    <value>No name or IP address given.{0}Please specify a name and/or IP address of a network machine.</value>
+    <comment>Error message when no name or IP was given; {0} =Environment.NewLine</comment>
+  </data>
+  <data name="AddNetworkMachineWindow_Title" xml:space="preserve">
+    <value>Add computer - Windows Server Advanced Power Management</value>
+    <comment>Title of add network machine window</comment>
+  </data>
+  <data name="AddProcessWindow_NoInfoError" xml:space="preserve">
+    <value>No process name given.{0}Please enter a process name.</value>
+    <comment>Error message when no process was given; {0} = Environment.NewLine</comment>
+  </data>
+  <data name="AddProcessWindow_ProcessName" xml:space="preserve">
+    <value>Process name:</value>
+    <comment>Process name label</comment>
+  </data>
+  <data name="AddProcessWindow_Title" xml:space="preserve">
+    <value>Add process - Windows Server Advanced Power Management</value>
+    <comment>Title of add proecess window</comment>
+  </data>
+  <data name="General_ButtonCancel" xml:space="preserve">
+    <value>Cancel</value>
+    <comment>Cancel button</comment>
+  </data>
+  <data name="General_ButtonOK" xml:space="preserve">
+    <value>OK</value>
+    <comment>OK button</comment>
+  </data>
+  <data name="General_MessageBoxErrorTitle" xml:space="preserve">
+    <value>Error - Windows Server Advanced Power Management</value>
+    <comment>Title of general error message box</comment>
+  </data>
+  <data name="General_MessageBoxTitle" xml:space="preserve">
+    <value>Windows Server Advanced Power Management</value>
+    <comment>General message box title</comment>
+  </data>
+  <data name="LoadWinodw_TitleCpu" xml:space="preserve">
+    <value>CPU load - Windows Server Advanced Power Management</value>
+    <comment>Title of load window (CPU)</comment>
+  </data>
+  <data name="LoadWinodw_TitleNetwork" xml:space="preserve">
+    <value>Network load - Windows Server Advanced Power Management</value>
+    <comment>Title of load window (network)</comment>
+  </data>
+  <data name="MainWindow_ButtonAbout" xml:space="preserve">
+    <value>About</value>
+    <comment>Caption of about button</comment>
+  </data>
+  <data name="MainWindow_StatusPanelLogCaption" xml:space="preserve">
+    <value>Log</value>
+    <comment>Caption of status panel (log)</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusCaption" xml:space="preserve">
+    <value>Status</value>
+    <comment>Caption of status panel (status)</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusServiceMonitoring" xml:space="preserve">
+    <value>Monitoring</value>
+    <comment>Message when service is monitoring</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusServiceNotInstalled" xml:space="preserve">
+    <value>Service not installed!</value>
+    <comment>Message when service is not installed</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusServiceNotMonitoring" xml:space="preserve">
+    <value>Monitoring stopped</value>
+    <comment>Message when service is not monitoring</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusSettings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>Settings label of status panel (status)</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusStart" xml:space="preserve">
+    <value>Start</value>
+    <comment>Start label of status panel (status)</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusStop" xml:space="preserve">
+    <value>Stop</value>
+    <comment>Stop label of status panel (status)</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusWindowsPowerOptions" xml:space="preserve">
+    <value>Windows power options</value>
+    <comment>Windows power options label of status panel (status)</comment>
+  </data>
+  <data name="MainWindow_Title" xml:space="preserve">
+    <value>Windows Server Advanced Power Management</value>
+    <comment>Title of main window</comment>
+  </data>
+  <data name="ServiceManager_StatusMessageMonitoring" xml:space="preserve">
+    <value>Monitoring</value>
+    <comment>Status message when monitoring</comment>
+  </data>
+  <data name="ServiceManager_StatusMessageStartServiceError" xml:space="preserve">
+    <value>Error while starting service: {0}</value>
+    <comment>Status message when service can not be stared; {0} = Error message</comment>
+  </data>
+  <data name="ServiceManager_StatusMessageStartServiceNotPresentError" xml:space="preserve">
+    <value>Service can not be started. Maybe the service is not installed.</value>
+    <comment>Status message when service can not be stared because it is possibly not installed</comment>
+  </data>
+  <data name="ServiceManager_StatusMessageStop" xml:space="preserve">
+    <value>Monitoring stopped</value>
+    <comment>Status message when service is stopped</comment>
+  </data>
+  <data name="ServiceManager_StatusMessageStopServiceError" xml:space="preserve">
+    <value>Error while stopping service: {0}</value>
+    <comment>Status message when service can not be stopped; {0} = Error message</comment>
+  </data>
+  <data name="ServiceManager_StatusMessageStopServiceNotPresentError" xml:space="preserve">
+    <value>Service can not be stopped. Maybe the service is not installed.</value>
+    <comment>Status message when service can not be stopped because it is possibly not installed</comment>
+  </data>
+  <data name="SettingsWindow_ButtonStandardSettings" xml:space="preserve">
+    <value>Load standard settings</value>
+    <comment>Button load standard settings</comment>
+  </data>
+  <data name="SettingsWindow_CaptionComputersProcesses" xml:space="preserve">
+    <value>Computers/Processes</value>
+    <comment>Caption computer/processes</comment>
+  </data>
+  <data name="SettingsWindow_CaptionCpu" xml:space="preserve">
+    <value>CPU</value>
+    <comment>Caption CPU</comment>
+  </data>
+  <data name="SettingsWindow_CaptionGeneralSettings" xml:space="preserve">
+    <value>General settlings</value>
+    <comment>Caption general settings</comment>
+  </data>
+  <data name="SettingsWindow_CaptionLogging" xml:space="preserve">
+    <value>Logging</value>
+    <comment>Caption logging</comment>
+  </data>
+  <data name="SettingsWindow_CaptionNetwork" xml:space="preserve">
+    <value>Network</value>
+    <comment>Caption network</comment>
+  </data>
+  <data name="SettingsWindow_CaptionWakeSettings" xml:space="preserve">
+    <value>Wake settings</value>
+    <comment>Caption wake settings</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxComputers" xml:space="preserve">
+    <value>Computers:</value>
+    <comment>Check box computers</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxCpuLoad" xml:space="preserve">
+    <value>CPU load (in %):</value>
+    <comment>Check box CPU load</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_CheckBoxDownloadNetworkLoad" xml:space="preserve">
+    <value>Download network load (in KBit/s):</value>
+    <comment>Check box download network load</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxProcesses" xml:space="preserve">
+    <value>Processes:</value>
+    <comment>Check box processes</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_CheckBoxRepeatEvery" xml:space="preserve">
+    <value>Repeat every:</value>
+    <comment>Check box repeat every</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_CheckBoxTotalNetworkLoad" xml:space="preserve">
+    <value>Total network load (in KBit/s):</value>
+    <comment>Check box total network load</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_CheckBoxUploadNetworkLoad" xml:space="preserve">
+    <value>Upload network load (in KBit/s):</value>
+    <comment>Check box upload network load</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_ComboBoxRepeatIntervalHours" xml:space="preserve">
+    <value>Hours</value>
+    <comment>Combo box repeat interval: hours</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_ComboBoxRepeatIntervalDays" xml:space="preserve">
+    <value>Days</value>
+    <comment>Combo box repeat interval: days</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_ComboBoxRepeatIntervalMinutes" xml:space="preserve">
+    <value>Minutes</value>
+    <comment>Combo box repeat interval: minutes</comment>
+  </data>
+  <data name="SettingsWindow_LabelCheckInterval" xml:space="preserve">
+    <value>Check interval (in minutes):</value>
+    <comment>Label check interval</comment>
+  </data>
+  <data name="SettingsWindow_LabelLogMode" xml:space="preserve">
+    <value>Log mode:</value>
+    <comment>Label log mode</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_LabelEnableWake" xml:space="preserve">
+    <value>Active:</value>
+    <comment>Label enable wake</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_LabelEndTime" xml:space="preserve">
+    <value>End wake:</value>
+    <comment>Label end time</comment>
+  </data>
+  <data name="SettingsWindow_LabelMaxLogFileSize" xml:space="preserve">
+    <value>Max. log file size (in KB):</value>
+    <comment>Label max. log file size</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_LabelNetworkInterface" xml:space="preserve">
+    <value>Network interface:</value>
+    <comment>Label network interface</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_LabelStartTime" xml:space="preserve">
+    <value>First wake:</value>
+    <comment>Label start time</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxSaveSettings" xml:space="preserve">
+    <value>Save settings for Windows Server Advanced Power Management?</value>
+    <comment>Message box question if the settings should be saved</comment>
+  </data>
+  <data name="SettingsWindow_TabHeaderGeneral" xml:space="preserve">
+    <value>General</value>
+    <comment>Header of tab general</comment>
+  </data>
+  <data name="SettingsWindow_TabHeaderMonitoringGeneral" xml:space="preserve">
+    <value>Monitoring (advanced)</value>
+    <comment>Header of tab monitoring (general)</comment>
+  </data>
+  <data name="SettingsWindow_TabHeaderWake" xml:space="preserve">
+    <value>Wake</value>
+    <comment>Header of tab wake</comment>
+  </data>
+  <data name="SettingsWindow_Title" xml:space="preserve">
+    <value>Settings - Windows Server Advanced Power Management</value>
+    <comment>Title of settings window</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxLoadDefaultSettings" xml:space="preserve">
+    <value>Load default settings?{0}{0}The current settings will be lost.</value>
+    <comment>Message box question if the default settings should be loaded; {0} = Environment.NewLine</comment>
+  </data>
+  <data name="SettingsWindow_ComboBoxLogModeNone" xml:space="preserve">
+    <value>None</value>
+    <comment>Combo box log mode: None</comment>
+  </data>
+  <data name="SettingsWindow_ComboBoxLogModeNormal" xml:space="preserve">
+    <value>Normal</value>
+    <comment>Combo box log mode: Normal</comment>
+  </data>
+  <data name="SettingsWindow_ComboBoxLogModeOnlyErrors" xml:space="preserve">
+    <value>Only errors</value>
+    <comment>Combo box log mode: OnlyErrors</comment>
+  </data>
+  <data name="SettingsWindow_ComboBoxLogModeVerbose" xml:space="preserve">
+    <value>Verbose</value>
+    <comment>Combo box log mode: Verbose</comment>
+  </data>
+  <data name="MainWindow_AppAlreadyRunning" xml:space="preserve">
+    <value>Application is already running.</value>
+    <comment>Message if the program is started twice</comment>
+  </data>
+  <data name="SettingsWindow_ToolTipLabelCpuLoad" xml:space="preserve">
+    <value>Current CPU load</value>
+    <comment>ToolTip of label CPU load</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_ToolTipLabelDownloadNetworkLoad" xml:space="preserve">
+    <value>Current network load (download)</value>
+    <comment>ToolTip of label download network load</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_ToolTipLabelTotalNetworkLoad" xml:space="preserve">
+    <value>Current network load (total)</value>
+    <comment>ToolTip of label total network load</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_ToolTipLabelUploadNetworkLoad" xml:space="preserve">
+    <value>Current network load (upload)</value>
+    <comment>ToolTip of label upload network load</comment>
+  </data>
+  <data name="SettingsWindow_ToolTipButtonOptimalCheckInterval" xml:space="preserve">
+    <value>Determine optimized value according to the Windows power options</value>
+    <comment>ToolTip of button optimal check interval</comment>
+  </data>
+  <data name="SettingsWindow_ValidationErrorCheckInterval" xml:space="preserve">
+    <value>The Windows idle timeout ({1} minutes) is greater than the set check interval ({2} minutes).{0}So that the policy-check of Windows Server Advanced Power Management can take place before the system switches to standby, the check interval has to be smaller than the Windows idle timeout.{0}{0}Do you want to keep the value for check interval anyway?</value>
+    <comment>Message box text when validation of check interval failed; {0} = Environment.NewLine; {1} = Windows idle timeout; {2} = check interval</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxNetworkResourceAccess" xml:space="preserve">
+    <value>Monitor access to network shares:</value>
+    <comment>Checkbox network file access</comment>
+  </data>
+  <data name="SettingsWindow_ValidationErrorWakeTimers" xml:space="preserve">
+    <value>The option 'Allow wake timers' is deactivated in the Windows power options. Therefore Windows Server Advanced Power Management cannot wake the system from standby{0}{0}Do you want to keep the option to wake the system from standby time-controlled anyway?</value>
+    <comment>Message box text when validation of wake timers failed; {0} = Environment.NewLine</comment>
+  </data>
+  <data name="ProcessChoiceWindow_Title" xml:space="preserve">
+    <value>Choose process - Windows Server Advanced Power Management</value>
+    <comment>Title of choose process window</comment>
+  </data>
+  <data name="AddProcessWindow_ButtonChooseProcessTooptip" xml:space="preserve">
+    <value>Choose from running processes</value>
+    <comment>Button choose from running processes tool tip</comment>
+  </data>
+  <data name="ProcessChoiceWindow_ButtonRefreshCaption" xml:space="preserve">
+    <value>Refresh</value>
+    <comment>Button refresh on ProcessChoiceWindow</comment>
+  </data>
+  <data name="ProcessChoiceWindow_ColumnCaptionDescription" xml:space="preserve">
+    <value>Description</value>
+    <comment>Column header 'description' on ProcessChoiceWindow</comment>
+  </data>
+  <data name="ProcessChoiceWindow_ColumnCaptionFileName" xml:space="preserve">
+    <value>File name</value>
+    <comment>Column header 'file name' on ProcessChoiceWindow</comment>
+  </data>
+  <data name="ProcessChoiceWindow_ColumnCaptionProcessName" xml:space="preserve">
+    <value>Process name</value>
+    <comment>Column header 'process name' on ProcessChoiceWindow</comment>
+  </data>
+  <data name="ProcessChoiceWindow_LabelFilter" xml:space="preserve">
+    <value>Filter:</value>
+    <comment>Filter label of ProcessChoiceWindow</comment>
+  </data>
+  <data name="MainWindow_ValidationErrorCheckInterval" xml:space="preserve">
+    <value>The Windows idle timeout ({0} minutes) is greater than the set check interval ({1} minutes)</value>
+    <comment>Status panel warning if the Windows idle timeout is greater than the check interval; {0} = Windows idle timeout (minutes); {1} = Check interval (minutes)</comment>
+  </data>
+  <data name="MainWindow_ValidationErrorWakeTimers" xml:space="preserve">
+    <value>The option 'Allow wake timers' is disabled in the Windows power options</value>
+    <comment>Status panel warning if the option 'Allow wake timers' is disabled in the Windows power options</comment>
+  </data>
+  <data name="SettingsWindow_ComboBoxNetworkResourceAccessTypeDirectories" xml:space="preserve">
+    <value>Only directories</value>
+    <comment>Combo box network resource access type: directories</comment>
+  </data>
+  <data name="SettingsWindow_ComboBoxNetworkResourceAccessTypeFiles" xml:space="preserve">
+    <value>Only files</value>
+    <comment>Combo box network resource access type: files</comment>
+  </data>
+  <data name="SettingsWindow_ComboBoxNetworkResourceAccessTypeFilesAndDirectories" xml:space="preserve">
+    <value>Files and directories</value>
+    <comment>Combo box network resource access type: files and directories</comment>
+  </data>
+  <data name="SettingsWindow_TabHeaderPlugins" xml:space="preserve">
+    <value>Plugins</value>
+    <comment>Header of tab Plugins</comment>
+  </data>
+  <data name="SettingsWindow_GridPluginsHeaderAuthor" xml:space="preserve">
+    <value>Author</value>
+    <comment>Header 'Author' of plugin grid</comment>
+  </data>
+  <data name="SettingsWindow_GridPluginsHeaderDescription" xml:space="preserve">
+    <value>Description</value>
+    <comment>Header 'Description' of plugin grid</comment>
+  </data>
+  <data name="SettingsWindow_GridPluginsHeaderName" xml:space="preserve">
+    <value>Plugin</value>
+    <comment>Header 'Plugin' of plugin grid</comment>
+  </data>
+  <data name="SettingsWindow_GridPluginsHeaderVersion" xml:space="preserve">
+    <value>Version</value>
+    <comment>Header 'Version' of plugin grid</comment>
+  </data>
+  <data name="SettingsWindow_LoadPluginOpenFileDialogFilter" xml:space="preserve">
+    <value>Plugins |*.zip</value>
+    <comment>Filter of OpenFileDialog when adding a plugin</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxInstallPluginFailed" xml:space="preserve">
+    <value>Error while installing plugin:{0}{0}{1}</value>
+    <comment>Message box when installing a plugin from a zip file failed; {0} = Environment.NewLine, {1} = Error message</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxNoWsapmPlugin" xml:space="preserve">
+    <value>The archive does not contain a plugin for Windows Server Advanced Power Management.</value>
+    <comment>Message box when an archive does not contain a valid plugin for Wsapm</comment>
+  </data>
+  <data name="SettingsWindow_ButtonPluginInstall" xml:space="preserve">
+    <value>Install plugin</value>
+    <comment>Button to install new plugin</comment>
+  </data>
+  <data name="SettingsWindow_ButtonPluginSettings" xml:space="preserve">
+    <value>Plugin settings</value>
+    <comment>Button to open the plugin settings</comment>
+  </data>
+  <data name="SettingsWindow_ButtonPluginUninstall" xml:space="preserve">
+    <value>Uninstall plugin</value>
+    <comment>Button to uninstall plugin</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxOverridePlugin" xml:space="preserve">
+    <value>Plugin '{0}' is already installed. Do you want to override the plugin?{1}{1}Click 'No' to cancel the installation.</value>
+    <comment>Message Box when a plugin is already installed; {0} = plugin's name; {1} = Environment.NewLine</comment>
+  </data>
+  <data name="PluginSettingsWindow_Title" xml:space="preserve">
+    <value>Plugin settings - Windows Server Advanced Power Management</value>
+    <comment>Title of PluginSettingsWindow</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxUninstallPluginFailed" xml:space="preserve">
+    <value>Error while uninstalling plugin:{0}{0}{1}</value>
+    <comment>Message box when uninstalling a plugin failed; {0} = Environment.NewLine, {1} = Error message</comment>
+  </data>
+  <data name="SettingsWindow_GridPluginsHeaderActive" xml:space="preserve">
+    <value>Active</value>
+    <comment>Header 'Active' of plugin grid</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxUninstallQuestion" xml:space="preserve">
+    <value>Do you really want to uninstall plugin '{0}'?{1}The application has to be restarted.{1}{1}Continue?</value>
+    <comment>Message box when a plugin should be uninstalled; {0} = plugin's name; {1} = Environment.NewLine</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxInstallQuestion" xml:space="preserve">
+    <value>In order to install the plugin, the application has to be restarted.{0}{0}Continue installation?</value>
+    <comment>Message box when a plugin should be installed; {0} = Environment.NewLine</comment>
+  </data>
+  <data name="SettingsWindow_QuestionMonitoringNetworkFolders" xml:space="preserve">
+    <value>Access to folders on network shares possibly occur very frequently and will not be released during a session. Thus the computer will possibly not enter standby mode as expected.{0}{0}Do you really want to activate monitoring of access to network shares?</value>
+    <comment>Message box when monitoring of network folder is activated; {0} = Environment.NewLine</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxPluginSettingsError" xml:space="preserve">
+    <value>Error while changing settings for plugin '{0}':{1}{1}{2}</value>
+    <comment>Message box when changing settings for plugin fails; {0} = plugin's name; {1} = Environment.NewLine; {2} = exception text</comment>
+  </data>
+  <data name="General_BusyIndicatorBusyContent" xml:space="preserve">
+    <value>Please wait...</value>
+    <comment>Text of busy indicator while busy</comment>
+  </data>
+  <data name="SettingsWindow_ButtonSettings" xml:space="preserve">
+    <value>Settings</value>
+    <comment>DropdownButton for managing settings</comment>
+  </data>
+  <data name="SettingsWindow_ButtonSettingsExport" xml:space="preserve">
+    <value>Export settings</value>
+    <comment>Button export settings</comment>
+  </data>
+  <data name="SettingsWindow_ButtonSettingsImport" xml:space="preserve">
+    <value>Import settings</value>
+    <comment>Button import settings</comment>
+  </data>
+  <data name="SettingsWindow_ErrorImportSettings" xml:space="preserve">
+    <value>Import settings failed:{0}{0}{1}</value>
+    <comment>Error message when importing settings failed; {0} = Environment.NewLine; {1} = exception message</comment>
+  </data>
+  <data name="SettingsWindow_ImportExportSettingsOpenFileDialogFilter" xml:space="preserve">
+    <value>Settings|*.zip</value>
+    <comment>Filter of OpenFileDialog when exporting settings</comment>
+  </data>
+  <data name="MainWindow_ButtonCheckForUpdates" xml:space="preserve">
+    <value>Check for updates</value>
+    <comment>Caption of update button</comment>
+  </data>
+  <data name="MainWindow_MessageBoxNoUpdateAvailable" xml:space="preserve">
+    <value>No update available.{0}Latest version ({1}) already installed.</value>
+    <comment>Message box when there is no update available; {0} = Environment.NewLine; {1} = current version</comment>
+  </data>
+  <data name="MainWindow_MessageBoxUpdateAvailable" xml:space="preserve">
+    <value>A newer version of Windows Server Advanced Power Management is available.{0}{0}Installed version: {1}{0}Latest version: {2}{0}{0}Do you want to download an install the latest version?</value>
+    <comment>Message box when update is available; {0} = Environment.NewLine; {1} = current version; {2} = newest version</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxResetNetworkConectionsAfterWake" xml:space="preserve">
+    <value>Reset network connections after wake</value>
+    <comment>Check box for resetting network connection after wake</comment>
+  </data>
+  <data name="MainWindow_BusyIndicatorBusyContentStartService" xml:space="preserve">
+    <value>Starting service...</value>
+    <comment>BusyIndicator message when starting the WSAPM service</comment>
+  </data>
+  <data name="MainWindow_BusyIndicatorBusyContentStopService" xml:space="preserve">
+    <value>Stopping service...</value>
+    <comment>BusyIndicator message when stopping the WSAPM service</comment>
+  </data>
+  <data name="MainWindow_BusyIndicatorBusyContentCheckForUpdates" xml:space="preserve">
+    <value>Searching for updates...</value>
+    <comment>BusyIndicator message when checking for updates</comment>
+  </data>
+  <data name="MainWindow_MessageBoxNoUpdateAvailableOffline" xml:space="preserve">
+    <value>Could not connect to update server.{0}Please check you internet connection.{0}{0}You can also check for updates manually on https://decatec.de/.{0}Do you want to check for updates manually now?</value>
+    <comment>Message when no internet connection could be established while checking for updates; {0} = Environment.NewLine</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxRestartServicesAfterEveryWake" xml:space="preserve">
+    <value>Restart services after wake:</value>
+    <comment>Check box restart services after every wake</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxStartProgramsAfterEveryWake" xml:space="preserve">
+    <value>Start programs after wake:</value>
+    <comment>CheckBox label start programs after every wake</comment>
+  </data>
+  <data name="AddProcessToStartWindow_Title" xml:space="preserve">
+    <value>Add program - Windows Server Advanced Power Management</value>
+    <comment>Title of the add process to start window</comment>
+  </data>
+  <data name="AddServiceToRestartWindow_ButtonChooseProcessTooptip" xml:space="preserve">
+    <value>Choose service</value>
+    <comment>Tool tip of button choose service</comment>
+  </data>
+  <data name="AddServiceToRestartWindow_LabelServiceName" xml:space="preserve">
+    <value>Service name:</value>
+    <comment>Label service name</comment>
+  </data>
+  <data name="AddServiceToRestartWindow_NoInfoError" xml:space="preserve">
+    <value>No service name given.{0}Please enter a service name.</value>
+    <comment>Error message when no service was given; {0} = Environment.NewLine</comment>
+  </data>
+  <data name="AddServiceToRestartWindow_Title" xml:space="preserve">
+    <value>Add service - Windows Server Advanced Power Management</value>
+    <comment>Title of the add service to restart window</comment>
+  </data>
+  <data name="ServiceChoiceWindow_ButtonRefreshCaption" xml:space="preserve">
+    <value>Refresh</value>
+    <comment>Button refresh on ServiceChoiceWindow</comment>
+  </data>
+  <data name="ServiceChoiceWindow_ColumnCaptionName" xml:space="preserve">
+    <value>Name</value>
+    <comment>Column header 'service name' on ServiceChoiceWindow</comment>
+  </data>
+  <data name="ServiceChoiceWindow_ColumnCaptionDisplayName" xml:space="preserve">
+    <value>Display name</value>
+    <comment>Column header 'display name' on ServiceChoiceWindow</comment>
+  </data>
+  <data name="ServiceChoiceWindow_LabelFilter" xml:space="preserve">
+    <value>Filter:</value>
+    <comment>Filter label of ServiceChoiceWindow</comment>
+  </data>
+  <data name="ServiceChoiceWindow_Title" xml:space="preserve">
+    <value>Choose service - Windows Server Advanced Power Management</value>
+    <comment>Title of chose service window</comment>
+  </data>
+  <data name="AddProcessToStartWindow_LabelProcess" xml:space="preserve">
+    <value>Program:</value>
+    <comment>'Program' label of add process to start window</comment>
+  </data>
+  <data name="ServiceChoiceWindow_ColumnCaptionDescription" xml:space="preserve">
+    <value>Description</value>
+    <comment>Column header 'service description' on ServiceChoiceWindow</comment>
+  </data>
+  <data name="ServiceChoiceWindow_ColumnCaptionStarted" xml:space="preserve">
+    <value>Started</value>
+    <comment>Column header 'service started' on ServiceChoiceWindow</comment>
+  </data>
+  <data name="AddProcessToStartWindow_NoInfoError" xml:space="preserve">
+    <value>No program name given.{0}Please enter a program name.</value>
+    <comment>Error message when no program name was given; {0} =Environment.NewLine</comment>
+  </data>
+  <data name="AddProcessToStartWindow_ButtonChooseProcessTooptip" xml:space="preserve">
+    <value>Choose program</value>
+    <comment>Button choose program tool tip in add process to start window</comment>
+  </data>
+  <data name="AddProcessToStartWindow_LabelArgs" xml:space="preserve">
+    <value>Arguments:</value>
+    <comment>'Arguments' label of add process to start window</comment>
+  </data>
+  <data name="AddProcessToStartWindow_OpenFileDialogFilter" xml:space="preserve">
+    <value>Executable files|*.exe;*.bat</value>
+    <comment>Filter of open file dialog of add process to start window</comment>
+  </data>
+  <data name="AddProcessToStartWindow_ProgramDoesNotExistWarning" xml:space="preserve">
+    <value>The program '{0}' does not exist on this computer.{1}{1}Add this program anyway?</value>
+    <comment>Warning message when a given program to start does not exist; {0} = program name, {1} = Environment.NewLine</comment>
+  </data>
+  <data name="AddServiceToRestartWindow_ServiceDoesNotExistWarning" xml:space="preserve">
+    <value>The service '{0}' is not installed on the computer.{1}{1}Add the service anyway?</value>
+    <comment>Warning message when a given service to restart does not exist; {0} = service name, {1} = Environment.NewLine</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_CheckBoxStartProgramsAfterWake" xml:space="preserve">
+    <value>Start programs after wake:</value>
+    <comment>CheckBox label start programs after wake</comment>
+  </data>
+  <data name="NetworkMachineChoiceWindow_Title" xml:space="preserve">
+    <value>Choose computer - Windows Server Advanced Power Management</value>
+    <comment>Title of choose network machine window</comment>
+  </data>
+  <data name="AddNetworkMachineWindow_ButtonChooseNetworkMachineToolTip" xml:space="preserve">
+    <value>Choose computer</value>
+    <comment>Tool tip of choose computer button</comment>
+  </data>
+  <data name="NetworkMachineChoiceWindow_ColumnCaptionIP" xml:space="preserve">
+    <value>IP address</value>
+    <comment>Column header 'IP address' on NetworkMachineChoiceWindow</comment>
+  </data>
+  <data name="NetworkMachineChoiceWindow_ColumnCaptionName" xml:space="preserve">
+    <value>Name</value>
+    <comment>Column header 'name' on NetworkMachineChoiceWindow</comment>
+  </data>
+  <data name="SettingsWindow_ButtonAddComputerToolTip" xml:space="preserve">
+    <value>Add computer</value>
+    <comment>Tool tip of button add computer</comment>
+  </data>
+  <data name="SettingsWindow_ButtonAddProcessToolTip" xml:space="preserve">
+    <value>Add process</value>
+    <comment>Tool tip of button add process</comment>
+  </data>
+  <data name="SettingsWindow_ButtonAddRestartServiceAfterEveryWakeToolTip" xml:space="preserve">
+    <value>Add service</value>
+    <comment>Tool tip of button add service</comment>
+  </data>
+  <data name="SettingsWindow_ButtonAddStartProgramAfterEveryWakeToolTip" xml:space="preserve">
+    <value>Add program</value>
+    <comment>Tool tip of button add program</comment>
+  </data>
+  <data name="SettingsWindow_ButtonEditComputerToolTip" xml:space="preserve">
+    <value>Edit selected computer</value>
+    <comment>Tool tip of button edit computer</comment>
+  </data>
+  <data name="SettingsWindow_ButtonEditProcessToolTip" xml:space="preserve">
+    <value>Edit selected process</value>
+    <comment>Tool tip of button edit process</comment>
+  </data>
+  <data name="SettingsWindow_ButtonEditRestartServiceAfterEveryWakeToolTip" xml:space="preserve">
+    <value>Edit selected service</value>
+    <comment>Tool tip of button edit service</comment>
+  </data>
+  <data name="SettingsWindow_ButtonEditStartProgramAfterEveryWakeToolTip" xml:space="preserve">
+    <value>Edit selected program</value>
+    <comment>Tool tip of button edit program</comment>
+  </data>
+  <data name="SettingsWindow_ButtonRemoveComputerToolTip" xml:space="preserve">
+    <value>Remove selected computer</value>
+    <comment>Tool tip of button remove computer</comment>
+  </data>
+  <data name="SettingsWindow_ButtonRemoveProcessToolTip" xml:space="preserve">
+    <value>Remove selected process</value>
+    <comment>Tool tip of button remove process</comment>
+  </data>
+  <data name="SettingsWindow_ButtonRemoveRestartServiceAfterEveryWakeToolTip" xml:space="preserve">
+    <value>Remove selected service</value>
+    <comment>Tool tip of button remove service</comment>
+  </data>
+  <data name="SettingsWindow_ButtonRemoveStartProgramAfterEveryWakeToolTip" xml:space="preserve">
+    <value>Remove selected program</value>
+    <comment>Tool tip of button remove program</comment>
+  </data>
+  <data name="NetworkMachineChoiceWindow_LabelIPRange" xml:space="preserve">
+    <value>IP address range to scan (from/to):</value>
+    <comment>Label IP range</comment>
+  </data>
+  <data name="NetworkMachineChoiceWindow_MessageIPFromNoRealIP" xml:space="preserve">
+    <value>The given IP address (from) is no valid IP address.</value>
+    <comment>Error message when the IP from is no real IP</comment>
+  </data>
+  <data name="NetworkMachineChoiceWindow_MessageIPToNoRealIP" xml:space="preserve">
+    <value>The given IP address (to) is no valid IP address.</value>
+    <comment>Error message when the IP to is no real IP</comment>
+  </data>
+  <data name="AddNetworkMachineWindow_MessageIPNoRealIP" xml:space="preserve">
+    <value>The given IP address is no valid IP address.</value>
+    <comment>Error message when the IP is no real IP</comment>
+  </data>
+  <data name="AddProcessToStartWindow_ButtonTestTooptip" xml:space="preserve">
+    <value>Test the start of the program with the specified arguments</value>
+    <comment>Button test tool tip in add process to start window</comment>
+  </data>
+  <data name="AddProcessToStartWindow_ErrorStartProgramTest" xml:space="preserve">
+    <value>Error while starting the program:{0}{1}{0}{0}{2}</value>
+    <comment>Error message when test start of programFails; {0} = Environment.NewLine; {1} = program with arguments; {2} = exception message</comment>
+  </data>
+  <data name="AddProcessToStartWindow_ProgramToStartHint" xml:space="preserve">
+    <value>The program is run under local system account and thus has elevated rights. Also the program must not have a user interface because this can not be shown for that reason.</value>
+    <comment>Hint that the program runs under local system account</comment>
+  </data>
+  <data name="AddNetworkMachineWindow_NetworkMachineAlreadyAdded" xml:space="preserve">
+    <value>The computer '{0}' is already in the list of computers to monitor.</value>
+    <comment>Error message when a given network machine is already added to the list; {0} = network machine</comment>
+  </data>
+  <data name="AddProcessToStartWindow_GroupBoxHint" xml:space="preserve">
+    <value>Note</value>
+    <comment>Hint text of the group box</comment>
+  </data>
+  <data name="AddProcessToStartWindow_ProcessAlreadyAdded" xml:space="preserve">
+    <value>The program '{0}' is already specified to be started after wake.</value>
+    <comment>Error message when a given program to start is already added to the list; {0} = program name with args</comment>
+  </data>
+  <data name="AddProcessWindow_ProcessAlreadyAdded" xml:space="preserve">
+    <value>The process '{0}' is already in the list of processes to monitor.</value>
+    <comment>Error message when a given process is already added to the list; {0} = process name</comment>
+  </data>
+  <data name="AddServiceToRestartWindow_ServiceAlreadyAdded" xml:space="preserve">
+    <value>The service '{0}' is already specified to be restarted on wake.</value>
+    <comment>Error message when a given service to restart is already added to the list; {0} = service name</comment>
+  </data>
+  <data name="MainWindow_MessageBoxUpdateFailed" xml:space="preserve">
+    <value>Error while downloading update.{0}Please check you internet connection.{0}{0}You can also check for updates manually on https://decatec.de/.{0}Do you want to check for updates manually now?</value>
+    <comment>Message box when something went wrong while downloading an update; {0} = Environment.NewLine</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_ColumnCaptionActive" xml:space="preserve">
+    <value>Active</value>
+    <comment>Grid header 'Active' of data grid wake schedulers</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_ColumnCaptionNextDueTime" xml:space="preserve">
+    <value>Next due time</value>
+    <comment>Grid header 'Next due time' of data grid wake schedulers</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_ColumnCaptionStartPrograms" xml:space="preserve">
+    <value>Start programs</value>
+    <comment>Grid header 'Start programs' of data grid wake schedulers</comment>
+  </data>
+  <data name="SettingsWindow_CaptionWake" xml:space="preserve">
+    <value>Scheduled wake</value>
+    <comment>Header of group box wake</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxWake" xml:space="preserve">
+    <value>Scheduled wake active</value>
+    <comment>Check box to enable/disable wake</comment>
+  </data>
+  <data name="SettingsWindow_ButtonRemoveExpiredWakeSchedulers" xml:space="preserve">
+    <value>Remove expired entries</value>
+    <comment>Button remove expired wake schedulers</comment>
+  </data>
+  <data name="SettingsWindow_ButtonAddWakeScheduleToolTip" xml:space="preserve">
+    <value>Add wake schedule</value>
+    <comment>Tool tip of button add wake schedule</comment>
+  </data>
+  <data name="SettingsWindow_ButtonEditWakeScheduleToolTip" xml:space="preserve">
+    <value>Edit selected wake schedule</value>
+    <comment>Tool tip of button edit wake schedule</comment>
+  </data>
+  <data name="SettingsWindow_ButtonRemoveWakeScheduleToolTip" xml:space="preserve">
+    <value>Remove selected wake schedule</value>
+    <comment>Tool tip of button remove wake schedule</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionServiceName" xml:space="preserve">
+    <value>Service</value>
+    <comment>Column header 'Service'</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionArguments" xml:space="preserve">
+    <value>Arguments</value>
+    <comment>Column header 'Arguments'</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionComputerIP" xml:space="preserve">
+    <value>IP</value>
+    <comment>Column header 'IP'</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionComputerName" xml:space="preserve">
+    <value>Computer</value>
+    <comment>Column header 'Computer'</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionProcess" xml:space="preserve">
+    <value>Process</value>
+    <comment>Column header 'Process'</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionProgram" xml:space="preserve">
+    <value>Program</value>
+    <comment>Column header 'Program'</comment>
+  </data>
+  <data name="SettingsWindow_CaptionPlugins" xml:space="preserve">
+    <value>Plugins</value>
+    <comment>Group box caption 'Plugins'</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_CheckBoxStartProgramsWhenSystemAlreadyRunning" xml:space="preserve">
+    <value>Start programs when system is already running when timer elapses</value>
+    <comment>Check box start programs when system is already running</comment>
+  </data>
+  <data name="MainWindow_StatusPanelWakeCaption" xml:space="preserve">
+    <value>Scheduled wake times</value>
+    <comment>Caption of status panel (wake)</comment>
+  </data>
+  <data name="MainWindow_StatusPanelWakeNoWakeScheduled" xml:space="preserve">
+    <value>No scheduled wake times</value>
+    <comment>Status panel message when no wake is planned</comment>
+  </data>
+  <data name="MainWindow_StatusPanelWakeSettings" xml:space="preserve">
+    <value>Wake settings</value>
+    <comment>Wake settings label of status panel (wake)</comment>
+  </data>
+  <data name="MainWindow_StatusPanelWakeStartProgramsAfterWake" xml:space="preserve">
+    <value>scheduled program start</value>
+    <comment>Status panel wake appendix if programs should be started after wake </comment>
+  </data>
+  <data name="AddNetworkMachineWindow_TitleEdit" xml:space="preserve">
+    <value>Edit computer - Windows Server Advanced Power Management</value>
+    <comment>Title of add network machine window</comment>
+  </data>
+  <data name="AddProcessToStartWindow_TitleEdit" xml:space="preserve">
+    <value>Edit program - Windows Server Advanced Power Management</value>
+    <comment>Title of the add process to start window</comment>
+  </data>
+  <data name="AddProcessWindow_TitleEdit" xml:space="preserve">
+    <value>Edit process - Windows Server Advanced Power Management</value>
+    <comment>Title of add processes window</comment>
+  </data>
+  <data name="AddServiceToRestartWindow_TitleEdit" xml:space="preserve">
+    <value>Edit service - Windows Server Advanced Power Management</value>
+    <comment>Title of the add service to restart window</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_Title" xml:space="preserve">
+    <value>Schedule wake - Windows Server Advanced Power Management</value>
+    <comment>Title of add wake scheduler window</comment>
+  </data>
+  <data name="AddWakeScheduleWindow_TitleEdit" xml:space="preserve">
+    <value>Edit scheduled wake - Windows Server Advanced Power Management</value>
+    <comment>Title of add wake scheduler window</comment>
+  </data>
+  <data name="SettingsWindow_CaptionAfterPolicyCheck" xml:space="preserve">
+    <value>Actions after policy check</value>
+    <comment>Group box caption 'after policy check'</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxEnableActionsAfterPolicyCheck" xml:space="preserve">
+    <value>Execute actions after policy check:</value>
+    <comment>Check box 'Execute actions after policy check:'</comment>
+  </data>
+  <data name="SettingsWindow_TabHeaderActionsAfterPolicyCheck" xml:space="preserve">
+    <value>After policy check</value>
+    <comment>Tab item header 'After policy check'</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheck_LabelActionToExecute" xml:space="preserve">
+    <value>Action:</value>
+    <comment>Label 'action' of add action after policy check window</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheck_LabelTrigger" xml:space="preserve">
+    <value>Execute action when:</value>
+    <comment>Label 'execute action when' of add action after policy check window</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheck_Title" xml:space="preserve">
+    <value>Add action after policy check - Windows Server Advanced Power Management</value>
+    <comment>Window title of add action after policy check window</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheckWindow_ComboBoxActionHibernate" xml:space="preserve">
+    <value>Hibernate</value>
+    <comment>Combo box entry 'hibernate' (AddActionAfterPolicyCheckWindow)</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheckWindow_ComboBoxActionShutdown" xml:space="preserve">
+    <value>Shut down</value>
+    <comment>Combo box entry 'Shut down' (AddActionAfterPolicyCheckWindow)</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheckWindow_ComboBoxActionStandby" xml:space="preserve">
+    <value>Standby</value>
+    <comment>Combo box entry 'standby' (AddActionAfterPolicyCheckWindow)</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheckWindow_ComboBoxActionStartProgram" xml:space="preserve">
+    <value>Start program</value>
+    <comment>Combo box entry 'Start program' (AddActionAfterPolicyCheckWindow)</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheckWindow_ComboBoxActionTriggerAtLeatOnePolicySatisfied" xml:space="preserve">
+    <value>At least one policy satisfied</value>
+    <comment>Combo box entry 'At least one policy satisfied' (AddActionAfterPolicyCheckWindow)</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheckWindow_ComboBoxActionTriggerNoPolicySatisfied" xml:space="preserve">
+    <value>No policy satisfied</value>
+    <comment>Combo box entry 'No policy satisfied' (AddActionAfterPolicyCheckWindow)</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheck_TitleEdit" xml:space="preserve">
+    <value>Edit action after policy check - Windows Server Advanced Power Management</value>
+    <comment>Window title of add action after policy check window</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionAction" xml:space="preserve">
+    <value>Action</value>
+    <comment>Column caption of action</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionActionMode" xml:space="preserve">
+    <value>Trigger</value>
+    <comment>Column caption of action mode</comment>
+  </data>
+  <data name="AddActionAfterPolicyCheck_ActionAlreadyAdded" xml:space="preserve">
+    <value>The action '{0}' is already in the list of actions to execute after policy check.</value>
+    <comment>Error message when an action to execute after policy check was already added</comment>
+  </data>
+  <data name="AddProcessToStartWindow_StandbyHibernateHint" xml:space="preserve">
+    <value>The computer can be forced to enter standby/hibernate mode or can be shut down after policy check. But it is not recommended to control the computer's state in this way. The better solution would be to configure the Windows power options to put the computer to sleep after a certain time.</value>
+    <comment>Hint when the computer should switch to standby/hibernate after policy check</comment>
+  </data>
+  <data name="PluginInfoWindow_Title" xml:space="preserve">
+    <value>Plugin info - Windows Server Advanced Power Management</value>
+    <comment>Windows title of plugin info window</comment>
+  </data>
+  <data name="SettingsWindow_ButtonPluginReadMe" xml:space="preserve">
+    <value>Plugin info</value>
+    <comment>Button text of button to call plugin ReadMe</comment>
+  </data>
+  <data name="SettingsWindow_PluginAuthor" xml:space="preserve">
+    <value>Author:</value>
+  </data>
+  <data name="AddActionAfterPolicyCheck_ActionForChangeEneryStateAdded" xml:space="preserve">
+    <value>An action which controls the energy state after policy check already exists ('{0}').</value>
+    <comment>Error message when an action to execute after policy check (which should set the energy state) is added when another action with the same purpose already exists; {0} = the already existing action</comment>
+  </data>
+  <data name="SettingsWindow_CaptionRemoteShutdown" xml:space="preserve">
+    <value>Remote shut down</value>
+    <comment>Caption Remote shut down</comment>
+  </data>
+  <data name="SettingsWindow_EheckBoxEnableRemoteShutdown" xml:space="preserve">
+    <value>Enable remote shut down</value>
+    <comment>Check box 'enable remote shutdown'</comment>
+  </data>
+  <data name="SettingsWindow_TextBoxRemoteShutdownHint" xml:space="preserve">
+    <value>With remote shut down, the computer can be shut down, restarted or set to standby or hibernate mode remotely. Therefor the following app is required: </value>
+    <comment>Hint for remote shutdown</comment>
+  </data>
+  <data name="SettingsWindow_HyperLinkMagicPacket" xml:space="preserve">
+    <value>https://decatec.de/software/magicpacket_en/</value>
+    <comment>Link for MagicPacket homepage</comment>
+  </data>
+  <data name="SettingsWindow_LabelRemoteShutdownPort" xml:space="preserve">
+    <value>Port (UDP) for remote shut down:</value>
+    <comment>Label for port for remote shutdown</comment>
+  </data>
+  <data name="SettingsWindow_TabHeaderRemoteShutdown" xml:space="preserve">
+    <value>Remote shut down</value>
+    <comment>Tab header for remote shut down</comment>
+  </data>
+  <data name="SettingsWindow_LabelRemoteShutdownPassword" xml:space="preserve">
+    <value>Password (optional):</value>
+    <comment>Label for entering password for remote shutdown</comment>
+  </data>
+  <data name="SettingsWindow_LabelRemoteShutdownPasswordRepetition" xml:space="preserve">
+    <value>Re-enter password:</value>
+    <comment>Label for re-entering the password for remote shut down</comment>
+  </data>
+  <data name="SettingsWindow_ValidationErrorRemoteShutdownPassword" xml:space="preserve">
+    <value>The entered password and its repetition do not match.</value>
+    <comment>Message box text when validation fails (password and repetition for remote shut down differ)</comment>
+  </data>
+  <data name="MainWindow_StatusPanelRemoteShutdownCaption" xml:space="preserve">
+    <value>Remote shut down</value>
+    <comment>Caption of status panel remote shut down</comment>
+  </data>
+  <data name="MainWindow_StatusPanelRemoteShutdownRemoteShutdownDisabled" xml:space="preserve">
+    <value>Remote shut down disabled</value>
+    <comment>Status panel message when remote shutdown is deactivated</comment>
+  </data>
+  <data name="MainWindow_StatusPanelRemoteShutdownRemoteShutdownEnabled" xml:space="preserve">
+    <value>Remote shut down enabled (port {0})</value>
+    <comment>Status panel message when remote shutdown is enabled; {0}=port used</comment>
+  </data>
+  <data name="MainWindow_StatusPanelRemoteShutdownRemoteShutdownEnabledWithPassword" xml:space="preserve">
+    <value>Remote shut down enabled (port {0}, password protected)</value>
+    <comment>Status panel message when remote shutdown is enabled and it is password protected; {0}=port used</comment>
+  </data>
+  <data name="MainWindow_StatusPanelRemoteShutdownSettings" xml:space="preserve">
+    <value>Remote shut down settings</value>
+    <comment>Remote shutdown settings label of status panel (Remote shut down)</comment>
+  </data>
+  <data name="MainWindow_StatusPanelLogCopyToClipboard" xml:space="preserve">
+    <value>Copy to clipboard</value>
+    <comment>Label text 'copy to clipboard'</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusTemporaryUptime" xml:space="preserve">
+    <value>Temporary uptime</value>
+    <comment>Label link temporary uptime</comment>
+  </data>
+  <data name="TemporaryUptimeWindow_Title" xml:space="preserve">
+    <value>Temporary uptime - Windows Server Advanced Power Management</value>
+    <comment>Caption of temporary uptime window</comment>
+  </data>
+  <data name="TemporaryUptimeWindow_ErrorCreateTemporaryUptimeFile" xml:space="preserve">
+    <value>Error while defining a temporary uptime.{0}{0}{1}</value>
+    <comment>Error message when defining a temporary uptime fails; {0} = Environment.NewLine, {1} = the error message</comment>
+  </data>
+  <data name="TemporaryUptimeWindow_LabelHours" xml:space="preserve">
+    <value>hours</value>
+    <comment>Label define uptime for (hours)</comment>
+  </data>
+  <data name="TemporaryUptimeWindow_LabelMinutes" xml:space="preserve">
+    <value>minutes</value>
+    <comment>Label define uptime for (minutes)</comment>
+  </data>
+  <data name="TemporaryUptimeWindow_LabelUptimeFor" xml:space="preserve">
+    <value>Define uptime for:</value>
+    <comment>Label define uptime for (TemporaryUptimeWindow)</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusUptimeDefined" xml:space="preserve">
+    <value>Uptime defined until {0}</value>
+    <comment>Status panel message when an uptime is defined; {0} = uptime until</comment>
+  </data>
+  <data name="SettingsWindow_LabelCurrentCpuLoadDefault" xml:space="preserve">
+    <value>0.00 %</value>
+    <comment>Default content of label CPU load</comment>
+  </data>
+  <data name="TemporaryUptimeWindow_ErrorNoUptimeDefined" xml:space="preserve">
+    <value>No temporary uptime defined.{0}Please specify a time span of at least one minute.</value>
+    <comment>Error message when temporary uptime of 0:00 was defined; {0} = Environment.NewLine</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusDeleteTemporaryUptime" xml:space="preserve">
+    <value>Cancel temporary uptime</value>
+    <comment>Hyperlink text when a temporary uptime can be canceled</comment>
+  </data>
+  <data name="MainWindow_StatusPanelStatusTemporaryUptimeDefinedUntil" xml:space="preserve">
+    <value>Temporary uptime until {0}</value>
+    <comment>Status panel text when temporary uptime defined and active; {0} = uptime defined until</comment>
+  </data>
+  <data name="AddUptimeScheduleWindow_CheckBoxRepeatEvery" xml:space="preserve">
+    <value>Repeat every:</value>
+    <comment>Check box repeat every</comment>
+  </data>
+  <data name="AddUptimeScheduleWindow_ComboBoxRepeatIntervalHours" xml:space="preserve">
+    <value>Hours</value>
+    <comment>Combo box repeat interval: hours</comment>
+  </data>
+  <data name="AddUptimeScheduleWindow_ComboBoxRepeatIntervalMinutes" xml:space="preserve">
+    <value>Minutes</value>
+    <comment>Combo box repeat interval: minutes</comment>
+  </data>
+  <data name="AddUptimeScheduleWindow_LabelDuration" xml:space="preserve">
+    <value>Duration:</value>
+    <comment>Label duration</comment>
+  </data>
+  <data name="AddUptimeScheduleWindow_LabelEnableUptime" xml:space="preserve">
+    <value>Active:</value>
+    <comment>Label enable uptime</comment>
+  </data>
+  <data name="AddUptimeScheduleWindow_LabelEndTime" xml:space="preserve">
+    <value>End uptime:</value>
+    <comment>Label end time</comment>
+  </data>
+  <data name="AddUptimeScheduleWindow_LabelStartTime" xml:space="preserve">
+    <value>Uptime:</value>
+    <comment>Label start time (uptime)</comment>
+  </data>
+  <data name="AddUptimeScheduleWindow_Title" xml:space="preserve">
+    <value>Add scheduled uptime - Windows Server Advanced Power Management</value>
+    <comment>Window title AddUptimeScheduleWindow</comment>
+  </data>
+  <data name="SettingsWindow_CaptionUptime" xml:space="preserve">
+    <value>Scheduled uptime</value>
+    <comment>Caption of group box planned uptime</comment>
+  </data>
+  <data name="SettingsWindow_TabHeaderUptime" xml:space="preserve">
+    <value>Uptime</value>
+    <comment>Tab header Uptime</comment>
+  </data>
+  <data name="AddUptimeScheduleWindow_TitleEdit" xml:space="preserve">
+    <value>Edit planned uptime - Windows Server Advanced Power Management</value>
+    <comment>Title of add uptime scheduler window</comment>
+  </data>
+  <data name="SettingsWindow_ButtonAddUptimeScheduleToolTip" xml:space="preserve">
+    <value>Add uptime</value>
+    <comment>Tool tip of button add uptime schedule</comment>
+  </data>
+  <data name="SettingsWindow_ButtonEditUptimeToolTip" xml:space="preserve">
+    <value>Edit selected uptime</value>
+    <comment>Tool tip of button edit uptime schedule</comment>
+  </data>
+  <data name="SettingsWindow_ButtonRemoveExpiredUptimeSchedulers" xml:space="preserve">
+    <value>Remove expired entries</value>
+    <comment>Button remove expired uptime schedulers</comment>
+  </data>
+  <data name="SettingsWindow_ButtonRemoveUptimeScheduleToolTip" xml:space="preserve">
+    <value>Remove selected uptime</value>
+    <comment>Tool tip of button remove uptime schedule</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxUptime" xml:space="preserve">
+    <value>Scheduled uptime active</value>
+    <comment>Check box to enable/disable uptime</comment>
+  </data>
+  <data name="SettingsWindow_GridUptimeHeaderActive" xml:space="preserve">
+    <value>Active</value>
+    <comment>Header 'Active' of uptime grid</comment>
+  </data>
+  <data name="SettingsWindow_GridUptimeHeaderDuration" xml:space="preserve">
+    <value>Duration</value>
+    <comment>Grid column 'duration' for uptime grid</comment>
+  </data>
+  <data name="SettingsWindow_GridUptimeHeaderNextDueTime" xml:space="preserve">
+    <value>Next uptime</value>
+    <comment>Grid column 'Next uptime' for uptime grid</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_Title" xml:space="preserve">
+    <value>Add network monitoring - Windows Server Advanced Power Management</value>
+    <comment>Windows title of 'add network monitoring' window</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxNetworkInterfaces" xml:space="preserve">
+    <value>Network interfaces:</value>
+    <comment>Check box caption 'network interfaces'</comment>
+  </data>
+  <data name="SettingsWindow_TabHeaderMonitoringSystem" xml:space="preserve">
+    <value>Monitoring (system)</value>
+    <comment>Header of tab monitoring (system)</comment>
+  </data>
+  <data name="SettingsWindow_ButtonAddNicToolTip" xml:space="preserve">
+    <value>Add network monitoring</value>
+    <comment>Button tool tip add NIC</comment>
+  </data>
+  <data name="SettingsWindow_ButtonEditNicToolTip" xml:space="preserve">
+    <value>Edit selected network monitor</value>
+    <comment>Button tool tip edit NIC</comment>
+  </data>
+  <data name="SettingsWindow_ButtonRemoveNicToolTip" xml:space="preserve">
+    <value>Remove selected network monitor</value>
+    <comment>Button tool tip remove NIC</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionNicDownload" xml:space="preserve">
+    <value>Download</value>
+    <comment>Coluimn caption 'network interface - download'</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionNicName" xml:space="preserve">
+    <value>Network interface</value>
+    <comment>Coluimn caption 'network interface'</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionNicTotal" xml:space="preserve">
+    <value>Total</value>
+    <comment>Coluimn caption 'network interface - total'</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionNicUpload" xml:space="preserve">
+    <value>Upload</value>
+    <comment>Coluimn caption 'network interface - upload'</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_NetworkInterfaceAlreadyAdded" xml:space="preserve">
+    <value>The network interface '{0}' is already in the list of network interfaces to monitor.</value>
+    <comment>Error message when a given network interface is already added to the list; {0} = network interface name</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_LabelNetworkLoadLoading" xml:space="preserve">
+    <value>Loading...</value>
+    <comment>Content of label 'loading...' in add network interface window</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxNicNotAvailable" xml:space="preserve">
+    <value>Settings are provided for the network interface '{1}' but this interface is not available.{0}{0}The settings for the network interface  '{1}' are therefore removed.</value>
+    <comment>Message box text when a NIC specified in the settings is not available anymore; {0} = Environment.NewLine; {1} = NIC name</comment>
+  </data>
+  <data name="SettingsWindow_CaptionMemory" xml:space="preserve">
+    <value>Memory</value>
+    <comment>Caption of group box memory</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxMemoryLoad" xml:space="preserve">
+    <value>Memory load (in %):</value>
+    <comment>Check box enable memory load check</comment>
+  </data>
+  <data name="SettingsWindow_ButtonAddHddToolTip" xml:space="preserve">
+    <value>Add logical drive monitoring</value>
+    <comment>Tool tip add HDD</comment>
+  </data>
+  <data name="SettingsWindow_ButtonEditHddToolTip" xml:space="preserve">
+    <value>Edit selected logical drive monitor</value>
+    <comment>Tool tip edit HDD</comment>
+  </data>
+  <data name="SettingsWindow_ButtonRemoveHddToolTip" xml:space="preserve">
+    <value>Remove selected logical drive monitor</value>
+    <comment>Tool tip remove HDD</comment>
+  </data>
+  <data name="SettingsWindow_CaptionHdd" xml:space="preserve">
+    <value>Hard drives</value>
+    <comment>Caption of group box Hard drives</comment>
+  </data>
+  <data name="SettingsWindow_CheckBoxLogicalDisks" xml:space="preserve">
+    <value>Logical disks:</value>
+    <comment>Check box Logical disks</comment>
+  </data>
+  <data name="SettingsWindow_ToolTipLabelMemoryLoad" xml:space="preserve">
+    <value>Current memory load</value>
+    <comment>ToolTip of label memory load</comment>
+  </data>
+  <data name="AddHddWindow_CheckBoxHddLoad" xml:space="preserve">
+    <value>Logical drive load (in KB/s):</value>
+    <comment>Check box 'Logical drive load' in AddHddWindow</comment>
+  </data>
+  <data name="AddHddWindow_LabelHdd" xml:space="preserve">
+    <value>Logical drive:</value>
+    <comment>Label 'Logical drive' of AddHddWindow</comment>
+  </data>
+  <data name="AddHddWindow_LabelHddLoadLoading" xml:space="preserve">
+    <value>Loading...</value>
+    <comment>Content of label 'loading...' in add HDD window</comment>
+  </data>
+  <data name="AddHddWindow_Title" xml:space="preserve">
+    <value>Add logical drive monitoring - Windows Server Advanced Power Management</value>
+    <comment>Window title of AddHddWindow</comment>
+  </data>
+  <data name="AddHddWindow_ToolTipLabelHddLoad" xml:space="preserve">
+    <value>Current load logical volume</value>
+    <comment>ToolTip of label current HDD load</comment>
+  </data>
+  <data name="SettingsWindow_MessageBoxHddNotAvailable" xml:space="preserve">
+    <value>Settings are provided for the logical volume '{1}' but this volume is not available.{0}{0}The settings for the logical volume '{1}' are therefore removed.</value>
+    <comment>Message box text when a drive specified in the settings is not available anymore; {0} = Environment.NewLine; {1} = drive's name</comment>
+  </data>
+  <data name="AddHddWindow_HddAlreadyAdded" xml:space="preserve">
+    <value>The logical volume '{0}' is already in the list of volumes to monitor.</value>
+    <comment>Error message when a given network interface is already added to the list; {0} = drive's name</comment>
+  </data>
+  <data name="AddHddWindow_TitleEdit" xml:space="preserve">
+    <value>Edit logical drive monitor - Windows Server Advanced Power Management</value>
+    <comment>Window title of AddHddWindow</comment>
+  </data>
+  <data name="AddNetworkInterfaceWindow_TitleEdit" xml:space="preserve">
+    <value>Edit network monitoring - Windows Server Advanced Power Management</value>
+    <comment>Windows title of 'add network monitoring' window</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionHddLoad" xml:space="preserve">
+    <value>Volume load</value>
+    <comment>Column caption 'load' of DataGridHdd</comment>
+  </data>
+  <data name="SettingsWindow_ColumnCaptionHddName" xml:space="preserve">
+    <value>Logical volume</value>
+    <comment>Column caption 'logical volume' of DataGridHdd</comment>
+  </data>
+  <data name="MainWindow_StatusPanelPluginCaption" xml:space="preserve">
+    <value>Plugins</value>
+    <comment>Caption of status panel plugins</comment>
+  </data>
+  <data name="MainWindow_StatusPanelPluginsNoPluginsInstalled" xml:space="preserve">
+    <value>No plugins installed</value>
+    <comment>Uptime status panel text if there is no plugin installed</comment>
+  </data>
+  <data name="MainWindow_StatusPanelPluginsPluginsInstalled" xml:space="preserve">
+    <value>Plugins installed: {1}{0}Plugins avtive: {2}{0}Plugins inactive = {3}</value>
+    <comment>Uptime status panel text if there are plugin(s) installed; {0} = Environment.NewLine; {1} = number of installed plugins; {2} = number of active plugins; {3} = number of inactive plugins</comment>
+  </data>
+  <data name="MainWindow_StatusPanelPluginSettings" xml:space="preserve">
+    <value>Plugin settings</value>
+    <comment>Link to settings in status panel plugins</comment>
+  </data>
+  <data name="AddUptimeScheduleWindow_ComboBoxRepeatIntervalDays" xml:space="preserve">
+    <value>Days</value>
+    <comment>Combo box entry for 'days' for uptime interval</comment>
+  </data>
+  <data name="MainWindow_StatusPanelUptimeCaption" xml:space="preserve">
+    <value>Scheduled uptimes</value>
+    <comment>Status panel caption for panel uptime</comment>
+  </data>
+  <data name="MainWindow_StatusPanelUptimeNoUptimeScheduled" xml:space="preserve">
+    <value>No scheduled uptimes</value>
+    <comment>Status panel message when no uptime is schueduled</comment>
+  </data>
+  <data name="MainWindow_StatusPanelUptimeSettings" xml:space="preserve">
+    <value>Uptime settings</value>
+    <comment>Hyperlink to uptime settings</comment>
+  </data>
+</root>

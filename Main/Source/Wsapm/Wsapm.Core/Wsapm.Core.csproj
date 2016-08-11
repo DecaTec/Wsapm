@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EBEB39D6-7468-4140-9627-888C01559C6D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Wsapm.Core</RootNamespace>
+    <AssemblyName>Wsapm.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Build\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\Build\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip, Version=1.9.9.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetZip.1.9.9\lib\net20\Ionic.Zip.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActionAfterPolicyCheckManager.cs" />
+    <Compile Include="ActionAfterPolicyCheck.cs" />
+    <Compile Include="Constants\WsapmCoreConstants.cs" />
+    <Compile Include="CpuLoad\CpuLoadAverage.cs" />
+    <Compile Include="CpuLoad\CpuLoadBase.cs" />
+    <Compile Include="CpuLoad\CpuLoadCurrent.cs" />
+    <Compile Include="DataEventArgs.cs" />
+    <Compile Include="DateTimeTools.cs" />
+    <Compile Include="FileTools.cs" />
+    <Compile Include="HddLoad\HddLoadAverage.cs" />
+    <Compile Include="HddLoad\HddLoadCurrent.cs" />
+    <Compile Include="HddLoad\HddLoadSingleVolumeAverage.cs" />
+    <Compile Include="HddLoad\HddLoadSingleVolumeBase.cs" />
+    <Compile Include="HddLoad\HddLoadSingleVolumeCurrent.cs" />
+    <Compile Include="HddToMonitor.cs" />
+    <Compile Include="HddTools.cs" />
+    <Compile Include="LogMode.cs" />
+    <Compile Include="MemoryLoad\MemoryLoadAverage.cs" />
+    <Compile Include="MemoryLoad\MemoryLoadBase.cs" />
+    <Compile Include="MemoryLoad\MemoryLoadCurrent.cs" />
+    <Compile Include="NetworkInterfaceToMonitor.cs" />
+    <Compile Include="NetworkLoad\NetworkLoadAverage.cs" />
+    <Compile Include="NetworkLoad\NetworkLoadCurrent.cs" />
+    <Compile Include="NetworkLoad\NetworkLoadSingleNicAverage.cs" />
+    <Compile Include="NetworkLoad\NetworkLoadSingleNicBase.cs" />
+    <Compile Include="NetworkLoad\NetworkLoadSingleNicCurrent.cs" />
+    <Compile Include="NetworkMachine.cs" />
+    <Compile Include="NetworkManager.cs" />
+    <Compile Include="NetworkShareManager.cs" />
+    <Compile Include="NetworkTools.cs" />
+    <Compile Include="OsVersionTools.cs" />
+    <Compile Include="PluginLoader.cs" />
+    <Compile Include="PluginManager.cs" />
+    <Compile Include="PluginManifestReader.cs" />
+    <Compile Include="PowerSettingsManager.cs" />
+    <Compile Include="ProcessToMonitor.cs" />
+    <Compile Include="ProgramManager.cs" />
+    <Compile Include="ProgramStart.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Wsapm.Core.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Wsapm.Core.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Resources\Wsapm.Core.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Wsapm.Core.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Service.cs" />
+    <Compile Include="ServiceManager.cs" />
+    <Compile Include="ShutdownManager.cs" />
+    <Compile Include="StandbyCheck\HddLoadCheck.cs" />
+    <Compile Include="StandbyCheck\MemoryLoadCheck.cs" />
+    <Compile Include="StandbyCheck\NetworkResourcesCheck.cs" />
+    <Compile Include="StandbyCheck\ScheduledUptimeCheck.cs" />
+    <Compile Include="StandbyCheck\TemporaryUptimeCheck.cs" />
+    <Compile Include="StandbyManager.cs" />
+    <Compile Include="TemporaryUptime.cs" />
+    <Compile Include="TemporaryUptimeManager.cs" />
+    <Compile Include="UptimeScheduler.cs" />
+    <Compile Include="WakeTimer.cs" />
+    <Compile Include="Win32ExceptionManager.cs" />
+    <Compile Include="WsapmConvert.cs" />
+    <Compile Include="WsapmVersionUpdateInformation.cs" />
+    <Compile Include="WakeManager.cs" />
+    <Compile Include="WakeScheduler.cs" />
+    <Compile Include="StandbyCheck\CpuLoadCheck.cs" />
+    <Compile Include="StandbyCheck\IStandbyCheck.cs" />
+    <Compile Include="StandbyCheck\NetworkLoadCheck.cs" />
+    <Compile Include="StandbyCheck\PingCheck.cs" />
+    <Compile Include="StandbyCheck\ProcessCheck.cs" />
+    <Compile Include="CheckSuspendResult.cs" />
+    <Compile Include="WsapmLog.cs" />
+    <Compile Include="WsapmManager.cs" />
+    <Compile Include="WsapmTools.cs" />
+    <Compile Include="SettingsManager.cs" />
+    <Compile Include="VersionInformation.cs" />
+    <Compile Include="WsapmConstants.cs" />
+    <Compile Include="WsapmException.cs" />
+    <Compile Include="WsapmSettings.cs" />
+    <Compile Include="WsapmUpdateManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Wsapm.Core.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Wsapm.Core.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\Wsapm.Core.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Wsapm.Core.de.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wsapm.Extensions\Wsapm.Extensions.csproj">
+      <Project>{c9e96965-6da2-4013-8851-6f44478007c6}</Project>
+      <Name>Wsapm.Extensions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wsapm.Wpf.Controls\Wsapm.Wpf.Controls.csproj">
+      <Project>{294d7435-fe01-4019-babc-a0f3039caaae}</Project>
+      <Name>Wsapm.Wpf.Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,94 @@
+﻿v1.5.1 (xx/xx/2016):
+- CHANGE: The log area in the main window is readonly now
+
+v1.5.0 (07/14/2016):
+- NEW: A temporary uptime can be defined directly in the main window of the application. When a temporary uptime is defined, the computer will not enter standby (no matter that other policies have been defined)
+- NEW: Besides a temporary uptime, scheduled uptimes can be defined in the program's settings (the computer needs to be in a running state for the uptime to get active)
+- NEW: Status panel for plugins (installed/active/inactive)
+- NEW: Status panel for upcoming scheduled uptimes
+- NEW: Monitoring of memory usage
+- NEW: Monitoring of usage of logical disks
+- CHANGE: Monitoring of network load can be used for single network adapters or all network adapters at once
+- CHANGE: The monitoring settings are now split into 'Monitoring (system)' and 'Monitoring (advanced)'
+- BUGFIX: While saving the password for remote shutdown, a wrong password was possibly saved (wrong hash value) 
+
+v1.4.1 (01/12/2016):
+- CHANGE/SECURITY: A password for remote shut down is no longer saved as plain text in the settings file, so that settings files can be handed over without revealing passwords. Therefore, please re-enter the password used for remote shut down in the settings! 
+- CHANGE/SECURITY: For remote shut down, Windows Server Advanced Power Management expects password to be transmitted over the network as hash values and not as plain text anymore. For this feature to take effect, the app 'MagicPacket' has to be used in a version >= 1.4.1 (Windows Phone) or >= 1.2.1 (Windows)
+- CHANGE: The check for new versions is now using HTTPS (encrypted)
+
+v1.4.0 (07/01/2015)
+- NEW: The computer can be shut down, restarted or set to standby or hibernate mode remotely. Therefor the app 'MagicPacket' is required (available for Windows and Windows Phone). More information on remote shut down can be found in the manual.
+- NEW: For the remote shut down functionality to work, an exception for the Windows Firewall is defined (UDP, private network only). Note: If another firewall is installed, you have to add an exception for WSAPM manually for incoming UDP traffic (see user manual for more details)
+- NEW: New status panel for remote shut down in the main view
+- NEW: Button to copy all the log contents to clipboard
+- CHANGE: The text in the log can now be selected (for simple copying)
+
+v1.3.1 (03/28/2015)
+- CHANGE: A user defined action which should control the energy state of the computer (standby/hibernate/shut down) cannot be added if another (energy state) action is already defined for the same trigger 
+
+v1.3.0 (03/15/2015)
+- NEW: User defined actions can be executed after checking the standby policies
+- NEW: After installing a plugin and restarting Windows Server Advanced Power Management, the settings window is shown
+- CHANGE: The plugin system was refined in order to support internationalization for plugins [existing plugins have to be changed in order to run with version 1.3.0 - see user manual]
+- BUGFIX: Sometimes an error message appeared when uninstalling a plugin and the plugin could not be uninstalled correctly
+
+v1.2.0 (8/3/2014)
+- NEW: Several wake timers can be configured now
+- NEW: When programs should be started when the system was woken by Windows Server Advanced Power Management, a setting can be specified if the programs should also be started when the system is already running
+- NEW: The main window now shows the next planned wake times by Windows Server Advanced Power Management
+- CHANGE: When a service should be restarted after wake from standby and the service is not already running, it only gets started without a warning in the log
+- CHANGE: The settings window was redesigned so that all information in lists are now more clearly arranged
+- CHANGE: The download window for updates is not re-sizable anymore
+- CHANGE: Timeout while checking for updates now is one minute
+- BUGFIX: The programs to start after every wake also got started if the corresponding option was disabled
+- BUGFIX: When downloading an update fails, an error message is shown
+
+v1.1.0 (7/15/2014)
+- NEW: Windows services can be specified which should be restarted after every wake
+- NEW: Programs can be specified which should be started after every wake
+- NEW: Programs can be specified which should be started after a wake caused by Windows Server Advanced Power Management
+- BUGFIX: Security fixes
+- BUGFIX: Network connections are not reset twice when the computer was woken by timer
+- BUGFIX: When system resumes after standby, there was often the erroneous message that the system was woken by timer
+- CHANGE: When adding a computer to monitor, a computer can be selected from the active computers in the local network
+- CHANGE: Computers to monitor can not be added more times to the monitoring list
+- CHANGE: Processes to monitor can not be added more times to the monitoring list
+- CHANGE: The monitoring entries (computers/processes) can now be edited
+- CHANGE: Optimized starting/stopping of the Windows Server Advanced Power Management service
+- CHANGE: When the computer enters standby or resumes after standby, the log entries are now marked with '>>>' to recognize these entries at first glance
+- CHANGE: Some log entries are now more meaningful
+- CHANGE: The filter in the window to chose a running process is not case sensitive anymore
+- CHANGE: All buttons without text now have a tool tip with a description
+- CHANGE: Some new icons
+
+v1.0.0 (5/19/2014)
+- NEW: Active network connections can be reset after wake
+- NEW: Integrated update functionality
+
+v0.4.0 (4/13/2014)
+- NEW: Settings can be exported and imported
+- BUGFIX: Windows Server Advanced Power Management will not crash anymore when the Windows performance counters are corrupted
+- CHANGE: Improved performance (especially on system start)
+- CHANGE: Some log entries are now more meaningful
+
+v0.3.1 (3/29/2014)
+- NEW: Windows Server Advanced Power Management shows error message in case of unrecoverable error
+
+v0.3.0 (3/4/2014)
+- NEW: Plugin interface: Windows Server Advanced Power Management can be extended with plugins (see manual for full instructions)
+- NEW: The option to monitor access to network shares can be specified to monitor access to files and/or directories
+- NEW: The warnings added in version 0.2.0 now also appear in the status panel on the main window
+- NEW: The warnings added in version 0.2.0 now only appear in the log when the log mode is set to 'Verbose'
+
+v0.2.0 (2/9/2014)
+- NEW: Monitoring of access to network shares
+- NEW: Added button in the general options to set an optimized value for the check interval (according to the Windows power options)
+- NEW: Dialog to choose from a list of currently running processes when adding a process in the monitoring settings
+- NEW: Warning if the check interval in the settings is greater than the Windows idle timeout
+- NEW: Warning if the option 'Allow wake timers' is disabled in the Windows power options and a time-controlled wake is configured
+- NEW: Added tool tips for buttons without caption
+
+v0.1.0 (2/1/2014)
+- Initial release
+

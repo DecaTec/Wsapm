@@ -1,0 +1,51 @@
+﻿<Window x:Class="Wsapm.Wpf.Controls.UnhandledExceptionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="UnhandledExceptionWindow" ResizeMode="NoResize" Topmost="True" Loaded="Window_Loaded" ContentRendered="Window_ContentRendered">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="10"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="15"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image Name="errorIcon" Grid.Row="0" Grid.Column="0" Height="32" Width="32" VerticalAlignment="Top"></Image>
+        <Grid Grid.Row="0" Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="10"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="5"></RowDefinition>
+                <RowDefinition Name="rowDefinitionExtendedInfo" Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Name="textBlockCaption" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" FontWeight="Bold"></TextBlock>
+            <TextBlock Name="textBlockMessage" Grid.Row="2" Grid.Column="0" TextWrapping="Wrap" FontStyle="Italic"></TextBlock>
+            <ToggleButton Name="buttonDetails" Content="Details >>" Grid.Column="0" Grid.Row="4" Width="75" HorizontalAlignment="Right" Click="buttonDetails_Click"></ToggleButton>
+            <ScrollViewer Name="scrollViewer" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled"  Grid.Row="6" Grid.Column="0">
+                <TextBox Name="textBlockStackTrace" TextWrapping="Wrap" IsReadOnly="True"></TextBox>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="5"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Button Name="buttonSaveAs" Width="Auto" Height="Auto" Content="Speichern unter..." Grid.Row="0" Grid.Column="1" Click="buttonSaveAs_Click"></Button>
+            <Button Name="buttonOK" Width="75" Height="Auto" Content="OK" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Left" Click="buttonOK_Click"></Button>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- This is the plugin manifest file providing additional information about this plugin. -->
+<!-- Note that the Build Action is set to 'None' and that this file gets copied to the output directory. -->
+<WsapmPlugin>
+  <!-- DescriptionSet for English language -->
+  <DescriptionSet lang="en">
+    <PluginName>Plugin Template for Windows Server Advanced Power Management</PluginName>
+    <Description>This is plugin template for Windows Server Advanced Power Management. Add a description of you plugin here.</Description>
+    <AuthorName>The author's name</AuthorName>
+  </DescriptionSet>
+
+  <!-- DescriptionSet for German language -->
+  <DescriptionSet lang="de">
+    <PluginName>Plugin Template für Windows Server Advanced Power Management</PluginName>
+    <Description>Dies ist ein Vorlage für ein Plugin für Windows Server Advanced Power Management. Füge hier eine Beschreibung des Plugins hinzu.</Description>
+    <AuthorName>Der Name des Autors</AuthorName>
+  </DescriptionSet>
+</WsapmPlugin>

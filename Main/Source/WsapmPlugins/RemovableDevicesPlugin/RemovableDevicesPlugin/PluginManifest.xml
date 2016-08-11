@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WsapmPlugin>
+  <DescriptionSet lang="en">
+    <PluginName>Removable Devices</PluginName>
+    <Description>Plugin for standby suppression if any removable devices are present</Description>
+    <AuthorName>DecaTec</AuthorName>
+  </DescriptionSet>
+  
+  <DescriptionSet lang="de">
+    <PluginName>Wechseldatenträger</PluginName>
+    <Description>Plugin zum Unterdrücken des Standby wenn Wechseldatenträger angeschlossen sind</Description>
+    <AuthorName>DecaTec</AuthorName>
+  </DescriptionSet> 
+</WsapmPlugin>
