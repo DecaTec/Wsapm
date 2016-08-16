@@ -607,6 +607,8 @@
                                     <RowDefinition Height="Auto"></RowDefinition>
                                     <RowDefinition Height="10"></RowDefinition>
                                     <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="10"></RowDefinition>
+                                    <RowDefinition Height="Auto"></RowDefinition>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto"></ColumnDefinition>
@@ -620,7 +622,15 @@
                                 <PasswordBox Name="passwordBoxRemoteShutdown" Grid.Column="2" Grid.Row="4" Width="150" HorizontalAlignment="Left" MaxLength="10" GotFocus="passwordBoxRemoteShutdown_GotFocus" PasswordChanged="passwordBoxRemoteShutdown_PasswordChanged"></PasswordBox>
                                 <Label Name="labelRemoteShutdownPasswordRepetition" Content="{x:Static res:Wsapm.SettingsWindow_LabelRemoteShutdownPasswordRepetition}" Grid.Column="0" Grid.Row="6"></Label>
                                 <PasswordBox Name="passwordBoxRemoteShutdownRepetition" Grid.Column="2" Grid.Row="6" Width="150" HorizontalAlignment="Left" MaxLength="10" GotFocus="passwordBoxRemoteShutdownRepetition_GotFocus" PasswordChanged="passwordBoxRemoteShutdownRepetition_PasswordChanged"></PasswordBox>
-                                <TextBlock Name="textBoxRemoteShutdownHint" TextWrapping="Wrap" Grid.Column="0" Grid.Row="8" Grid.ColumnSpan="3" Text="{x:Static res:Wsapm.SettingsWindow_TextBoxRemoteShutdownHint}"><Hyperlink Click="HyperlinkMagicPacket_Click">MagicPacket</Hyperlink></TextBlock>
+                                <Label Content="xxx" Grid.Column="0" Grid.Row="8"></Label>
+                                <ListBox Name="listBoxMacAdresses" Grid.Column="2" Grid.Row="8">
+                                    <ListBox.ContextMenu>
+                                        <ContextMenu>
+                                            <MenuItem Header="Copy" Click="ContextMenuMacAdresses_Click"/>
+                                        </ContextMenu>
+                                    </ListBox.ContextMenu>
+                                </ListBox>
+                                <TextBlock Name="textBoxRemoteShutdownHint" TextWrapping="Wrap" Grid.Column="0" Grid.Row="10" Grid.ColumnSpan="3" Text="{x:Static res:Wsapm.SettingsWindow_TextBoxRemoteShutdownHint}"><Hyperlink Click="HyperlinkMagicPacket_Click">MagicPacket</Hyperlink></TextBlock>
                             </Grid>
                         </GroupBox>
                     </TabItem>

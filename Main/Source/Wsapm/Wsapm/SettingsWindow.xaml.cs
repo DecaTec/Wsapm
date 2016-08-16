@@ -17,6 +17,7 @@ using System.Windows.Threading;
 using Wsapm.Core;
 using Wsapm.Extensions;
 using System.Linq;
+using System.Net.NetworkInformation;
 
 namespace Wsapm
 {
@@ -2242,6 +2243,16 @@ namespace Wsapm
             }
 
             EnableDisableRemoteShutdownOptions();
+
+            var macAdresses = new List<string>();
+
+            foreach (NetworkInterface nic in NetworkInterface.GetAllNetworkInterfaces().Where(x => x.OperationalStatus == OperationalStatus.Up))
+            {
+                var mac = BitConverter.ToString(nic.GetPhysicalAddress().GetAddressBytes()).Replace('-', ':');
+                macAdresses.Add(mac);
+            }               
+
+            this.listBoxMacAdresses.ItemsSource = macAdresses;
         }
 
         private void checkBoxEnableRemoteShutdown_Checked(object sender, RoutedEventArgs e)
@@ -2297,6 +2308,11 @@ namespace Wsapm
                 this.remotePasswordChanged = true;
         }
 
+        private void ContextMenuMacAdresses_Click(object sender, RoutedEventArgs e)
+        {
+            // #TODO
+        }
+
         #endregion Tab Remote-Shutdown
 
         protected virtual void Dispose(bool disposing)
@@ -2335,6 +2351,7 @@ namespace Wsapm
         }
 
         #endregion IDisposable members        
+       
     }
 
     /// <summary>
