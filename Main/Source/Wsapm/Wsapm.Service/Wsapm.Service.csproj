@@ -80,10 +80,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="DebugInstallBatches\Install_Debug.bat">
+    <None Include="DebugInstallBatches\Install_Debug_C.bat">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="DebugInstallBatches\Uninstall_Debug.bat">
+    <None Include="DebugInstallBatches\Install_Debug_D.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DebugInstallBatches\Uninstall_Debug_C.bat">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="DebugInstallBatches\Uninstall_Debug_D.bat">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
