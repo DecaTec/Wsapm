@@ -2242,17 +2242,18 @@ namespace Wsapm
                 this.passwordBoxRemoteShutdownRepetition.Password = dummyPassword;
             }
 
-            EnableDisableRemoteShutdownOptions();
-
-            var macAdresses = new List<string>();
-
             foreach (NetworkInterface nic in NetworkInterface.GetAllNetworkInterfaces().Where(x => x.OperationalStatus == OperationalStatus.Up))
             {
-                var mac = BitConverter.ToString(nic.GetPhysicalAddress().GetAddressBytes()).Replace('-', ':');
-                macAdresses.Add(mac);
-            }               
+                var physicalAddressBytes = nic.GetPhysicalAddress().GetAddressBytes();
 
-            this.listBoxMacAdresses.ItemsSource = macAdresses;
+                if (physicalAddressBytes.Length == 0)
+                    continue;
+
+                var mac = BitConverter.ToString(physicalAddressBytes).Replace('-', ':');
+                this.listBoxMacAdresses.Items.Add(mac);
+            }
+
+            EnableDisableRemoteShutdownOptions();      
         }
 
         private void checkBoxEnableRemoteShutdown_Checked(object sender, RoutedEventArgs e)
@@ -2276,6 +2277,8 @@ namespace Wsapm
             this.passwordBoxRemoteShutdown.IsEnabled = enabled;
             this.labelRemoteShutdownPasswordRepetition.IsEnabled = enabled;
             this.passwordBoxRemoteShutdownRepetition.IsEnabled = enabled;
+            this.labelMacAdresses.IsEnabled = enabled;
+            this.listBoxMacAdresses.IsEnabled = enabled;
         }
 
         private void upDownRemoteShutdownPort_ValueChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
@@ -2310,7 +2313,10 @@ namespace Wsapm
 
         private void ContextMenuMacAdresses_Click(object sender, RoutedEventArgs e)
         {
-            // #TODO
+            var item = this.listBoxMacAdresses.SelectedItem;
+
+            if(item != null)
+                Clipboard.SetText((string)this.listBoxMacAdresses.SelectedItem);
         }
 
         #endregion Tab Remote-Shutdown

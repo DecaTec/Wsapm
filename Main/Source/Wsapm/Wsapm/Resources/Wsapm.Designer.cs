@@ -2491,6 +2491,15 @@ namespace Wsapm.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to MAC addresses for remote shutdown:.
+        /// </summary>
+        public static string SettingsWindow_LabelMacAdresses {
+            get {
+                return ResourceManager.GetString("SettingsWindow_LabelMacAdresses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Max. log file size (in KB):.
         /// </summary>
         public static string SettingsWindow_LabelMaxLogFileSize {

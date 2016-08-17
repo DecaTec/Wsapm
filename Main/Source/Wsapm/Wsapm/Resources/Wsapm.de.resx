@@ -1356,4 +1356,8 @@
     <value>Keine Plugins installiert</value>
     <comment>Uptime status panel text if there is no plugin installed</comment>
   </data>
+  <data name="SettingsWindow_LabelMacAdresses" xml:space="preserve">
+    <value>MAC-Adressen für Remote-Shutdown:</value>
+    <comment>Label MAC adresses in settings window</comment>
+  </data>
 </root>

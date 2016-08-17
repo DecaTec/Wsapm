@@ -1356,4 +1356,8 @@
     <value>Uptime settings</value>
     <comment>Hyperlink to uptime settings</comment>
   </data>
+  <data name="SettingsWindow_LabelMacAdresses" xml:space="preserve">
+    <value>MAC addresses for remote shutdown:</value>
+    <comment>Label MAC adresses in settings window</comment>
+  </data>
 </root>
