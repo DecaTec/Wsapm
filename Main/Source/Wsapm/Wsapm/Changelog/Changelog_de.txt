@@ -1,5 +1,6 @@
-﻿v1.5.1 (xx.xx.2016):
+﻿v1.5.1 (20.08.2016):
 - ÄNDERUNG: Im Hauptfenster kann nun nicht mehr in den Log-Bereich geschrieben werden
+- NEU: In den Einstelungen zu Remote-Shutdown werden die MAC-Adressen gezeigt, die für Remote-Shutdown verwendet werden können
 
 v1.5.0 (14.07.2016):
 - NEU: Es kann eine temporäre Uptime direkt im Hauptfenster der Anwendung definiert werden. Während dieser temporären Uptime wird verhindert, dass der Computer in den Standby-Modus wechselt (unabhängig von den definierten Richtlinien)
