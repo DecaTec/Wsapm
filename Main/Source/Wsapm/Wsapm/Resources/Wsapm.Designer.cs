@@ -2491,7 +2491,7 @@ namespace Wsapm.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to MAC addresses for remote shutdown:.
+        ///   Looks up a localized string similar to MAC addresses for remote shut down:.
         /// </summary>
         public static string SettingsWindow_LabelMacAdresses {
             get {
