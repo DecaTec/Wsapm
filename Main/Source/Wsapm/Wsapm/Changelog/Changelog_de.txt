@@ -1,5 +1,5 @@
-﻿v1.5.2 (xx.xx.2016):
-- BUGFIX: 
+﻿v1.5.2 (14.09.2016):
+- BUGFIX: Geplante Uptimes wurden immer sofort aktiv, auch wenn diese für einen späteren Zeitpunkt geplant waren
 
 v1.5.1 (20.08.2016):
 - NEU: In den Einstelungen zu Remote-Shutdown werden die MAC-Adressen gezeigt, die für Remote-Shutdown verwendet werden können
