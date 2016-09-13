@@ -10,6 +10,6 @@ namespace Wsapm.Core
         /// <summary>
         /// Current version.
         /// </summary>
-        public static Version Version = new Version(1, 5, 1, 0);
+        public static Version Version = new Version(1, 5, 2, 0);
     }
 }

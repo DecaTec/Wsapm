@@ -1,4 +1,7 @@
-﻿v1.5.1 (08/20/2016):
+﻿v1.5.2 (xx/xx/2016):
+- BUGFIX: 
+
+v1.5.1 (08/20/2016):
 - NEW: In the remote shut down settings, all MAC addresses are shown which can be used for remote shut down
 - CHANGE: The log area in the main window is readonly now
 

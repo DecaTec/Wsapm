@@ -3,7 +3,7 @@
      xmlns:bal="http://schemas.microsoft.com/wix/BalExtension">
 
   <!-- Product version. Refer to it with "$(var.ProductVersion)" -->
-  <?define ProductVersion = "1.5.1.0"?>
+  <?define ProductVersion = "1.5.2.0"?>
   <!-- Upgrade code. Refer to it with "$(var.UpgradeCode)" -->
   <!-- NEVER CHANGE THE UPGRADECODE -->
   <?define UpgradeCode = "{6A1E9768-6FEE-4282-8C16-AFA43DAC4751}"?>
