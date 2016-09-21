@@ -290,7 +290,6 @@ namespace Wsapm.Core
         {
             try
             {
-                System.Diagnostics.Debugger.Break();
                 // Check all sources.
                 // From these checks that last a shorter time to these that take a longer timer.
                 // When standby is suspended, cancel the ResumeAutomaticTimer, so that it can't enable standby when it elapses.
