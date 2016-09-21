@@ -59,7 +59,7 @@ namespace Wsapm.Core
             var now = DateTime.Now;
 
             if (uptimeScheduler.NextDueTimeWithDuration.HasValue && uptimeScheduler.NextDueTime.HasValue
-                && uptimeScheduler.DueTime < now && now < uptimeScheduler.NextDueTimeWithDuration.Value)
+                && uptimeScheduler.NextDueTime < now && now < uptimeScheduler.NextDueTimeWithDuration.Value)
             {
                 return new CheckSuspendResult(true, string.Format(Wsapm.Core.Resources.Wsapm_Core.ScheduledUptimeCheck_UptimeDefinedReason, uptimeScheduler.NextDueTimeWithDuration.Value.ToShortTimeString()));
             }
