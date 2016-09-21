@@ -5,7 +5,7 @@
      xmlns:fire="http://schemas.microsoft.com/wix/FirewallExtension">
 
   <!-- Product version. Refer to it with "$(var.ProductVersion)" -->
-  <?define ProductVersion = "1.5.2.0"?>
+  <?define ProductVersion = "1.5.3.0"?>
   <!-- Upgrade code. Refer to it with "$(var.UpgradeCode)" -->
   <!-- NEVER CHANGE THE UPGRADECODE -->
   <?define UpgradeCode = "{8E133A46-F96C-48BC-9051-D77FDDECD32A}"?>
