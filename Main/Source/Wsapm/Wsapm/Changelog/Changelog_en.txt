@@ -1,5 +1,6 @@
 ﻿v1.5.3 (09/25/2016):
 - BUGFIX: The computer would not enter standby between two due times of a recurring scheduled uptime
+- BUGFIX: The end times of a scheduled wake/uptime was not shown correctly when editing an entry
 
 v1.5.2 (09/14/2016):
 - BUGFIX: Scheduled uptimes became active immediately, even if these where scheduled for the future

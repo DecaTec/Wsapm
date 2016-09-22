@@ -1,5 +1,6 @@
 ﻿v1.5.3 (25.09.2016);
 - BUGFIX: Der Standby-Modus wurde in der Zeit zwischen zwei Uptime-Zeitpunkten einer geplanten Uptime unterdrückt
+- BUGFIX: Der Zeitpunkt, an dem ein geplantes Aufwachen/Uptime beendet werden soll, wurde beim Editieren eines Eintrags nicht korrekt angezeigt
 
 v1.5.2 (14.09.2016):
 - BUGFIX: Geplante Uptimes wurden immer sofort aktiv, auch wenn diese für einen späteren Zeitpunkt geplant waren
