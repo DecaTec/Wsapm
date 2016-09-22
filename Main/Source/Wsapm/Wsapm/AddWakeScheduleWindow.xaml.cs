@@ -79,6 +79,7 @@ namespace Wsapm
                 EnableDisableRepeatOptions();
 
                 this.checkBoxEnableEndTime.IsChecked = this.editWakeSchedulerCopy.EnableEndTime;
+                this.dateTimePickerEndTime.Value = this.editWakeSchedulerCopy.EndTime;
                 EnableDisableEndTimeOptions();
 
                 // Start programs setting.

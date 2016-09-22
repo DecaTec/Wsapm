@@ -82,6 +82,7 @@ namespace Wsapm
                 EnableDisableRepeatOptions();
 
                 this.checkBoxEnableEndTime.IsChecked = this.editUptimeSchedulerCopy.EnableEndTime;
+                this.dateTimePickerEndTime.Value = this.editUptimeSchedulerCopy.EndTime;
                 EnableDisableEndTimeOptions();
             }
         }
