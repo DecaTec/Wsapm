@@ -168,11 +168,14 @@ namespace Wsapm.Core
                 if (this.EnableRepeat && this.RepeatAfter != null)
                 {
                     // Should be repeated.
+                    var now = DateTime.Now;
                     var tmp = this.DueTime;
+                    var tmpWithDuration = tmp.Add(this.Duration);
 
-                    while (tmp < DateTime.Now)
+                    while (tmp < now && now > tmpWithDuration)
                     {
                         tmp = tmp + this.RepeatAfter;
+                        tmpWithDuration = tmp.Add(this.Duration);
 
                         if (this.EnableEndTime && this.EndTime != null)
                         {
