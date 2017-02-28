@@ -1,7 +1,7 @@
-﻿using System;
+﻿using Ionic.Zip;
+using System;
 using System.IO;
 using System.Xml.Serialization;
-using Ionic.Zip;
 
 namespace Wsapm.Core
 {

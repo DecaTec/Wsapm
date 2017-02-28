@@ -5,7 +5,7 @@
      xmlns:fire="http://schemas.microsoft.com/wix/FirewallExtension">
 
   <!-- Product version. Refer to it with "$(var.ProductVersion)" -->
-  <?define ProductVersion = "1.5.3.0"?>
+  <?define ProductVersion = "1.5.4.0"?>
   <!-- Upgrade code. Refer to it with "$(var.UpgradeCode)" -->
   <!-- NEVER CHANGE THE UPGRADECODE -->
   <?define UpgradeCode = "{8E133A46-F96C-48BC-9051-D77FDDECD32A}"?>
@@ -160,8 +160,8 @@
       <Component Id="Xceed.Wpf.Toolkit"  Directory="INSTALLFOLDER" Guid="{4873D5B1-E4F5-40BE-90C7-C7C6AD5DA53F}">
         <File Id="Xceed.Wpf.Toolkit.dll" Source="$(var.Wsapm.TargetDir)\Xceed.Wpf.Toolkit.dll" KeyPath="yes" />
       </Component>
-      <Component Id="Ionic.Zip"  Directory="INSTALLFOLDER" Guid="{7D7EF25A-6E14-466C-93A3-4B5E0CA36695}">
-        <File Id="Ionic.Zip.dll" Source="$(var.Wsapm.TargetDir)\Ionic.Zip.dll" KeyPath="yes" />
+      <Component Id="DotNetZip"  Directory="INSTALLFOLDER" Guid="{7D7EF25A-6E14-466C-93A3-4B5E0CA36695}">
+        <File Id="DotNetZip.dll" Source="$(var.Wsapm.TargetDir)\DotNetZip.dll" KeyPath="yes" />
       </Component>
       <!-- Satellite assemblies -->
       <Component Id="Wsapm.resources" Directory="LanguageDeFolder" Guid="{AD11D958-443C-41A2-93A2-83D1D2D3470E}">

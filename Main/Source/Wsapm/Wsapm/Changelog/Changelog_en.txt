@@ -1,4 +1,8 @@
-﻿v1.5.3 (09/26/2016):
+﻿v1.5.4 (03/01/2017):
+- Updated references for DotNetZip
+- BUGFIX: On a fresh install of Windows Server Advanced Power Management (no update installation), an error occurred while installing a plugin
+
+v1.5.3 (09/26/2016):
 - BUGFIX: The computer would not enter standby between two due times of a recurring scheduled uptime
 - BUGFIX: The end times of a scheduled wake/uptime was not shown correctly when editing an entry
 - CHANGE: A currently active uptime does not disappear from the status panel 'Scheduled uptimes' (not before it is expired)
