@@ -1,4 +1,7 @@
-﻿v1.5.4 (03/01/2017):
+﻿v1.5.5 (03/06/2017):
+- CHANGE: Remote shut down: Changed the signature of remote shut down packets (see documentation for details)
+
+v1.5.4 (03/01/2017):
 - Updated references for DotNetZip
 - BUGFIX: On a fresh install of Windows Server Advanced Power Management (no update installation), an error occurred while installing a plugin
 

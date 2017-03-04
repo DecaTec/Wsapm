@@ -164,16 +164,16 @@ namespace Wsapm.Core
                 return ShutDownBehavior.None;
 
             // Header:
-            // 6x A -> Standby
-            // 6x B -> Hibernate
-            // 6x C -> Restart
-            // 6x D -> Shutdown
+            // 6x 0xAA -> Standby
+            // 6x 0XBB -> Hibernate
+            // 6x 0xCC -> Restart
+            // 6x 0xDD -> Shutdown
 
             bool validHeaderFound = true;
 
             for (int i = 0; i < 6; i++)
             {
-                if (packet[i] != 0xA)
+                if (packet[i] != 0xAA)
                 {
                     validHeaderFound = false;
                     break;
@@ -187,7 +187,7 @@ namespace Wsapm.Core
 
             for (int i = 0; i < 6; i++)
             {
-                if (packet[i] != 0xB)
+                if (packet[i] != 0xBB)
                 {
                     validHeaderFound = false;
                     break;
@@ -201,7 +201,7 @@ namespace Wsapm.Core
 
             for (int i = 0; i < 6; i++)
             {
-                if (packet[i] != 0xC)
+                if (packet[i] != 0xCC)
                 {
                     validHeaderFound = false;
                     break;
@@ -215,7 +215,7 @@ namespace Wsapm.Core
 
             for (int i = 0; i < 6; i++)
             {
-                if (packet[i] != 0xD)
+                if (packet[i] != 0xDD)
                 {
                     validHeaderFound = false;
                     break;
