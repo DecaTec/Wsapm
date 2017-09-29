@@ -70,7 +70,7 @@ To make plugin development really simple, there are two templates as Visual Stud
 
 | | |
 | - | - |
-| **Template for a simple plugin (without settings and UI):** | [WsapmPluginTemplate](https://decatec.de/?ddownload=1092) |
+| **Template for a simple plugin (without settings and UI)** | [WsapmPluginTemplate](https://decatec.de/?ddownload=1092) |
 | **Template for an advanced plugin( with settings and UI)** | [WsapmPluginAdvancedTemplate](https://decatec.de/?ddownload=1093) | 
 
 ## Screenshots
