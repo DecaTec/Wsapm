@@ -47,6 +47,11 @@ Download the [user manual](https://decatec.de/?ddownload=1087) for a detailed de
 When downloading the setup, there may appear a warning that the software may be malicious (from browsers and/or Windows). This is due to the installer is not yet known to the browser, especially when a new version of the program was released.
 However, Windows Server Advanced Power Management does not contain any malware/spyware/adware!
 
+## Development
+In order to clone and build the project, you'll need:
+- Visual Studio 2010 or later
+- [WiX Toolset](http://wixtoolset.org/) (for building the installer)
+
 ## Plugins
 Windows Server Advanced Power Management offers a plugin interface to extend the program with own policies to check.
 
