@@ -59,8 +59,8 @@ In order to uninstall a plugin, simply select it and click the button *Uninstall
 ### Available plugins
 | Plugin | Version | Description | Developer |
 | - | - | - | - |
-| [Local Printers Online](https://decatec.de/?ddownload=1089) | 1.1.0 | Plugin to suppress standby if a local printer is switched on | [DecaTec](https://decatec.de) | 
-| [Removable Devices](https://decatec.de/?ddownload=1090) | 1.1.0 | Plugin to suppress standby if any removable devices are present | [DecaTec](https://decatec.de) | 
+| [Local Printers Online](https://github.com/DecaTec/Wsapm-LocalPrintersOnline) | 1.1.0 | Plugin to suppress standby if a local printer is switched on | [DecaTec](https://decatec.de) | 
+| [Removable Devices](https://github.com/DecaTec/Wsapm-RemovableDevices) | 1.1.0 | Plugin to suppress standby if any removable devices are present | [DecaTec](https://decatec.de) | 
 
 ### Template for plugin development
 Everybody can develop own plugins for Windows Server Advanced Power Management. A detailed description for plugin development is also contained in the user manual.
