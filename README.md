@@ -39,7 +39,7 @@ Download the [user manual](https://decatec.de/?ddownload=1087) for a detailed de
 | - | - |
 | **Download:** | [decatec.de](https://decatec.de/software/windows-server-advanced-power-management_en/) (size approx. 13 MB) <br />The [.NET Framework 4](http://www.microsoft.com/en-us/download/details.aspx?id=24872) is required and included in the installer. |
 | **Changelog:** | [English](https://decatec.de/downloads/wsapm/changelog/Changelog_en.txt), [German](https://decatec.de/downloads/wsapm/changelog/Changelog_de.txt) |
-| **User manual:** | [User manual (English)](https://decatec.de/?ddownload=1087) [User manual (German)](https://decatec.de/?ddownload=1086) |
+| **User manual:** | [User manual (English)](https://decatec.de/?ddownload=1087)/[User manual (German)](https://decatec.de/?ddownload=1086) |
 | **Supported operating systems:** | Windows XP, Windows Vista, Windows 7, Windows 8, Windows 8.1, Windows 10, Windows Server 2003 (R2), Windows Server 2008 (R2), Windows Server 2012 (R2), Windows Home Server 2011 |
 | **Supported languages:** | English, German |
 
