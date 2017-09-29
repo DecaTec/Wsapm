@@ -1,4 +1,4 @@
-﻿v1.6.0.0 (30.09.2017):
+﻿v1.6.0.0 (01.10.2017):
 - Das Projekt Windows Server Advanced Power Management ist nun auf GitHub verfügbar: https://github.com/DecaTec/Wsapm
 - Windows Server Advanced Power Management ist nun Open Source
 - Links (AboutWindow) aktualisiert
