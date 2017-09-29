@@ -1360,4 +1360,8 @@
     <value>MAC addresses for remote shut down:</value>
     <comment>Label MAC adresses in settings window</comment>
   </data>
+  <data name="AboutWindow_OpenSource" xml:space="preserve">
+    <value>This software is available under an open source license. For more information, visit:</value>
+    <comment>Open source hint for WSAPM</comment>
+  </data>
 </root>

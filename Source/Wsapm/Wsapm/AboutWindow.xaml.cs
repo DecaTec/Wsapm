@@ -79,5 +79,11 @@ namespace Wsapm
             ProcessStartInfo psi = new ProcessStartInfo("http://dotnetzip.codeplex.com/");
             Process.Start(psi);
         }
+
+        private void HyperlinkGitHub_Click(object sender, RoutedEventArgs e)
+        {
+            ProcessStartInfo psi = new ProcessStartInfo("https://github.com/DecaTec/Wsapm");
+            Process.Start(psi);
+        }
     }
 }

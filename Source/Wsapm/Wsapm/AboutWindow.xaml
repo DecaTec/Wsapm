@@ -37,6 +37,12 @@
                         <Hyperlink Click="HyperlinkHomepage_Click">decatec.de</Hyperlink>
                     </Label>
                 </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="{x:Static res:Wsapm.AboutWindow_OpenSource}"></Label>
+                    <Label>
+                        <Hyperlink Click="HyperlinkGitHub_Click">GitHub</Hyperlink>
+                    </Label>
+                </StackPanel>
             </StackPanel>
         </StackPanel>
         <Grid Grid.Row="2" Grid.Column="0">
