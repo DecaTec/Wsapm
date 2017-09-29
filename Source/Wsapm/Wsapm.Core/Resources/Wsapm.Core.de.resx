@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CpuLoadCheck_CpuLoadCheckReason" xml:space="preserve">
+    <value>CPU Auslastung größer als {0}% ({1}%)</value>
+    <comment>Reason for suspending standby due to CPU load; {0} = Target CPU load; actual CPU load</comment>
+  </data>
+  <data name="NetworkLoadCheck_CombinedNetworkLoadReason" xml:space="preserve">
+    <value>Netzwerkauslastung (Upload + Download) [{0}] größer als {1} KBit/s ({2} KBit/s)</value>
+    <comment>Reason for suspending standby due to combined network activity; {0} = NIC name; {1} = target network load (upload + download) in KBit/s; {2} = actual combined network load</comment>
+  </data>
+  <data name="NetworkLoadCheck_DownloadNetworkLoadReason" xml:space="preserve">
+    <value>Netzwerkauslastung (Download) [{0}] größer als {1} KBit/s ({2} KBit/s)</value>
+    <comment>Reason for suspending standby due to download network activity; {0} = NIC name; {1} = Network load (download) in KBit/s;  {2} = actual download network load</comment>
+  </data>
+  <data name="NetworkLoadCheck_UploadNetworkLoadReason" xml:space="preserve">
+    <value>Netzwerkauslastung (Upload) [{0}] größer als {1} KBit/s ({2} KBit/s)</value>
+    <comment>Reason for suspending standby due to upload network activity; {0} = NIC name; {1} = Network load (upload) in KBit/s {2} = actual upload network load</comment>
+  </data>
+  <data name="NetworkManager_ResetNetworkConnections" xml:space="preserve">
+    <value>Setze Netzwerkverbindungen zurück</value>
+    <comment>Log: Message when network connections are reset</comment>
+  </data>
+  <data name="NetworkManager_ResetNetworkInterface" xml:space="preserve">
+    <value>Netzwerkverbindung '{0}' zurückgesetzt</value>
+    <comment>Log (verbose): Message when a network connection was reset; {0}=Name of NIC</comment>
+  </data>
+  <data name="NetworkManager_ResetNetworkInterfaceFailed" xml:space="preserve">
+    <value>Fehler beim Zurücksetzen der Netzwerkverbindung '{0}'</value>
+    <comment>Log (error): Message when resetting a network connection fails; [0}=Name of NIC</comment>
+  </data>
+  <data name="NetworkManager_ResetNetworkInterfaceGeneralError" xml:space="preserve">
+    <value>Fehler beim Zurücksetzen der Netzwerkverbindungen</value>
+    <comment>Log (error): Message when a general error occurs while resetting network connections (e.g. network connection cannot be obtained)</comment>
+  </data>
+  <data name="NetworkResourcesCheck_NetworkResourcesCheckReason" xml:space="preserve">
+    <value>Netzwerk-Zugriff auf '{0}'</value>
+    <comment>Reason for suspending standby due to file access over network; {0} = path of the resource opened over network</comment>
+  </data>
+  <data name="PingCheck_MachineOnlineReason" xml:space="preserve">
+    <value>Computer {0} online</value>
+    <comment>Reason for suspending standby due to network machines; {0} = Machine name or IP address</comment>
+  </data>
+  <data name="ProcessCheck_ProcessFoundReason" xml:space="preserve">
+    <value>Prozess {0} läuft</value>
+    <comment>Reason for suspending standby due to running processes; {0} = Process name</comment>
+  </data>
+  <data name="SettingsManager_DeleteSettingsError" xml:space="preserve">
+    <value>Einstellungen konnten nicht gelöscht werden</value>
+    <comment>Error message when deleting settings fails</comment>
+  </data>
+  <data name="SettingsManager_LoadSettingsError" xml:space="preserve">
+    <value>Fehler beim Laden der Einstellungen</value>
+    <comment>Error message when loading settings fails</comment>
+  </data>
+  <data name="SettingsManager_SaveSettingsError" xml:space="preserve">
+    <value>Fehler beim Speichern der Einstellungen</value>
+    <comment>Error message when saving settings fails</comment>
+  </data>
+  <data name="StandbyManager_CreatePowerRequestFail" xml:space="preserve">
+    <value>Power Request kann nicht erstellt werden</value>
+    <comment>Error message when creating power request fails</comment>
+  </data>
+  <data name="StandbyManager_PowerAvailabilityRequestsNotSupported" xml:space="preserve">
+    <value>Power Availability Requests werden vom Betriebssystem nicht unterstützt</value>
+    <comment>Log (verbose): Message when power availability requests not supported by OS</comment>
+  </data>
+  <data name="StandbyManager_PowerAvailabilityRequestsSupported" xml:space="preserve">
+    <value>Power Availability Requests werden vom Betriebssystem unterstützt</value>
+    <comment>Log (verbose): Message when power availability requests supported by OS</comment>
+  </data>
+  <data name="StandbyManager_ResetWindowsIdleTimer" xml:space="preserve">
+    <value>Windows Idle-Timer zurückgesetzt</value>
+    <comment>Log (verbose): Message when windows idle timer gets reset</comment>
+  </data>
+  <data name="StandbyManager_ResetWindowsIdleTimerFailed" xml:space="preserve">
+    <value>Fehler beim Zurückssetzen des Windows Idle-Timers</value>
+    <comment>Log: Message when reset of windows idle timer fails</comment>
+  </data>
+  <data name="StandbyManager_StandbyEnabled" xml:space="preserve">
+    <value>Standby-Unterdrückung aufgehoben</value>
+    <comment>Log: Message when standby mode gets enabled after is was supressed</comment>
+  </data>
+  <data name="StandbyManager_StandbyEnableFailed" xml:space="preserve">
+    <value>Fehler beim Aufheben der Unterdrückung des Standby-Modus</value>
+    <comment>Log: Error message when enabling standby mode fails</comment>
+  </data>
+  <data name="StandbyManager_StandbySuspended" xml:space="preserve">
+    <value>Windows Server Advanced Power Management: Standby unterdrückt</value>
+    <comment>Reason for suspended standby which is for example shown on powercfg -REQUESTS</comment>
+  </data>
+  <data name="StandbyManager_StandbySuspendedWithoutReason" xml:space="preserve">
+    <value>Standby unterdrückt</value>
+    <comment>Log: Message when standby gets suspended</comment>
+  </data>
+  <data name="StandbyManager_StandbySuspendedWithReason" xml:space="preserve">
+    <value>Standby unterdrückt (Grund: {0})</value>
+    <comment>Log: Message when standby gets suspended; {0} =Reason</comment>
+  </data>
+  <data name="StandbyManager_SuspendStandbyFailed" xml:space="preserve">
+    <value>Fehler beim Unterdrücken des Standby-Modus</value>
+    <comment>Log: Error message when suspending standby mode fails</comment>
+  </data>
+  <data name="WakeManager_CancelWakeTimerFailed" xml:space="preserve">
+    <value>Fehler beim Abbrechen des Timers zum Aufwachen</value>
+    <comment>Log (verbose): Error message when cancelling wake timer fails</comment>
+  </data>
+  <data name="WakeManager_SetWakeTimerFailed" xml:space="preserve">
+    <value>Fehler beim Setzen des Timers zum Aufwachen</value>
+    <comment>Log: Error message when settings wake timer fails</comment>
+  </data>
+  <data name="WakeManager_WakeScheduled" xml:space="preserve">
+    <value>Aufwachen geplant am {0}</value>
+    <comment>Log: Message when wake gets scheduled; {0} = Date and time the wake was scheduled</comment>
+  </data>
+  <data name="WakeManager_WakeTimerCancelled" xml:space="preserve">
+    <value>Geplantes Aufwachen abgebrochen</value>
+    <comment>Log: Message when wake timer is cancelled</comment>
+  </data>
+  <data name="WsapmLog_ErrorIndicator" xml:space="preserve">
+    <value>***FEHLER***</value>
+    <comment>Error indicator in log file</comment>
+  </data>
+  <data name="WsapmLog_WarningIndicator" xml:space="preserve">
+    <value>***WARNUNG***</value>
+    <comment>Warning indicator in log file</comment>
+  </data>
+  <data name="PuginLoader_CompositionError" xml:space="preserve">
+    <value>Fehler beim Laden eines Plugins</value>
+    <comment>Log: Error when the composition of a plugin failed</comment>
+  </data>
+  <data name="PluginManager_ErrorPluginCheckPolicy" xml:space="preserve">
+    <value>Fehler bei der Überprüfung von Plugin '{0}'</value>
+    <comment>Log: Error message when a plugin fails during checking ploicies; {0} = ths plugin's name</comment>
+  </data>
+  <data name="PluginManager_ErrorPluginInitialize" xml:space="preserve">
+    <value>Fehler beim Initialisieren von Plugin '{0}'</value>
+    <comment>Log: Error message when a plugin fails initialization; {0} = ths plugin's name</comment>
+  </data>
+  <data name="PluginManager_ErrorPluginPrepare" xml:space="preserve">
+    <value>Fehler bei Vorbereitung von Plugin '{0}'</value>
+    <comment>Log: Error message when a plugin fails preparation; {0} = this plugin's name</comment>
+  </data>
+  <data name="PluginManager_PluginCheckPolicy" xml:space="preserve">
+    <value>Überprüfe Richtlinie von Plugin '{0}'</value>
+    <comment>Log: Message when plugin ploicy is checked; {0} = plugin's name</comment>
+  </data>
+  <data name="PluginManager_PluginInitialized" xml:space="preserve">
+    <value>Plugin '{0}' initialisiert</value>
+    <comment>Log (verbose): Message when plugin was initialized; {0} = plugin's name</comment>
+  </data>
+  <data name="PluginManager_PluginPrepared" xml:space="preserve">
+    <value>Plugin '{0}' vorbereitet</value>
+    <comment>Log (verbose): Message when plugin was prepared; {0} = plugin's name</comment>
+  </data>
+  <data name="PluginManager_ErrorLoadingPlugins" xml:space="preserve">
+    <value>Fehler beim Laden der Plugins</value>
+    <comment>Log: Error while loading plugins</comment>
+  </data>
+  <data name="PluginManager_ErrorPluginTearDown" xml:space="preserve">
+    <value>Fehler beim Aufräumen von Plugin '{0}'</value>
+    <comment>Log (error): Message when tearing down a plugin failed; {0} = plugin's name</comment>
+  </data>
+  <data name="PluginManager_PluginTearedDown" xml:space="preserve">
+    <value>Plugin '{0}' aufgeräumt</value>
+    <comment>Log (verbose): Message when a plugin was teared down; {0} =plugin's name</comment>
+  </data>
+  <data name="WsapmManager_CheckCpuLoad" xml:space="preserve">
+    <value>Überprüfe CPU-Auslastung</value>
+    <comment>Log(verbose): Message when CPU load is checked</comment>
+  </data>
+  <data name="WsapmManager_CheckNetworkFileAccess" xml:space="preserve">
+    <value>Überprüfe Zugriff auf Freigaben</value>
+    <comment>Log(verbose): Message when network file access is checked</comment>
+  </data>
+  <data name="WsapmManager_CheckNetworkLoad" xml:space="preserve">
+    <value>Überprüfe Netzwerk-Auslastung</value>
+    <comment>Log(verbose): Message when network load is checked</comment>
+  </data>
+  <data name="WsapmManager_CheckNetworkMachines" xml:space="preserve">
+    <value>Überprüfe Computer</value>
+    <comment>Log(verbose):  Message when network machines are checked</comment>
+  </data>
+  <data name="WsapmManager_CheckProcesses" xml:space="preserve">
+    <value>Überprüfe Programme</value>
+    <comment>Log(verbose): Message when processes are checked</comment>
+  </data>
+  <data name="WsapmManager_Continued" xml:space="preserve">
+    <value>Dienst fortgesetzt</value>
+    <comment>Log: Message when service is continued</comment>
+  </data>
+  <data name="WsapmManager_ErrorLogFileCaption" xml:space="preserve">
+    <value>***FEHLER***</value>
+    <comment>Error log file caption</comment>
+  </data>
+  <data name="WsapmManager_ErrorLogStacktraceCaption" xml:space="preserve">
+    <value>Stacktrace:</value>
+    <comment>Stacktrace caption in error log file</comment>
+  </data>
+  <data name="WsapmManager_Paused" xml:space="preserve">
+    <value>Dienst pausiert</value>
+    <comment>Log: Message when service is paused</comment>
+  </data>
+  <data name="WsapmManager_ResumeAutomatic" xml:space="preserve">
+    <value>&gt;&gt;&gt; Fortführen nach Standby</value>
+    <comment>Log: Message on ResumeAutomatic</comment>
+  </data>
+  <data name="WsapmManager_SettingsChanged" xml:space="preserve">
+    <value>Änderungen an den Einstellungen, diese werden neu geladen</value>
+    <comment>Log (verbose): Message when settings have changed</comment>
+  </data>
+  <data name="WsapmManager_Started" xml:space="preserve">
+    <value>Dienst gestartet</value>
+    <comment>Log: Message when service is started</comment>
+  </data>
+  <data name="WsapmManager_StartMonitoringTimer" xml:space="preserve">
+    <value>Überwachungs-Timer gestartet</value>
+    <comment>Log (verbose): Message when the monitoring timer gets started</comment>
+  </data>
+  <data name="WsapmManager_StopMonitoringTimer" xml:space="preserve">
+    <value>Überwachungs-Timer gestoppt</value>
+    <comment>Log (verbose): Message when the monitoring timer gets stopped</comment>
+  </data>
+  <data name="WsapmManager_Stopped" xml:space="preserve">
+    <value>Dienst gestoppt</value>
+    <comment>Log: Message when service is stopped</comment>
+  </data>
+  <data name="WsapmManager_Suspend" xml:space="preserve">
+    <value>&gt;&gt;&gt; Computer wechselt in den Standby-Modus</value>
+    <comment>Log: Message when system enters standby mode</comment>
+  </data>
+  <data name="WsapmManager_TimerStartedAfterResumeAutomatic" xml:space="preserve">
+    <value>Standby nach automatischem Aufwachen für {0} Minuten unterdrück.</value>
+    <comment>Log: message when standby gets suspended after a ResumeAutomatic system event. {0} =minutes the standby is suspended</comment>
+  </data>
+  <data name="WsapmManager_ValidationErrorCheckInterval" xml:space="preserve">
+    <value>Die Windows-Standby-Zeit ({0} Minuten) ist größer als das eingestellte Überprüfungs-Interval ({1} Minuten)</value>
+    <comment>Log: Warning if the Windows idle timeout is greater than the check interval; {0} = Windows idle timout (minutes); {1} = Check interval (minutes)</comment>
+  </data>
+  <data name="WsapmManager_ValidationErrorWakeTimers" xml:space="preserve">
+    <value>Die Option 'Zeitgeber zur Aktivierung zulassen' ist in den Windows-Energieoptionen deaktiviert</value>
+    <comment>Log: Warning if the option 'Allow wake timers' is disabled in the Windows power options</comment>
+  </data>
+  <data name="WsapmManager_WakeTimerCompleted" xml:space="preserve">
+    <value>Aufwach-Timer abgelaufen</value>
+    <comment>Log (verbose): Message when wake timer completed</comment>
+  </data>
+  <data name="SettingsManager_ImportSettingsError" xml:space="preserve">
+    <value>Keine gültige Einstellungs-Datei.</value>
+    <comment>Exception message if the imported file is no valid WSAPM settings file</comment>
+  </data>
+  <data name="WsapmManager_UpdateAvailable" xml:space="preserve">
+    <value>Update verfügbar ({0}). Klicken Sie auf 'Nach Updates suchen' um das Update durchzuführen</value>
+    <comment>Log: Message when there is an update available for WSAPM; {0} = latest version</comment>
+  </data>
+  <data name="WsapmManager_ResetNetworkConnectionsAfterWake" xml:space="preserve">
+    <value>Setze Netwerkverbindungen zurück</value>
+    <comment>Log: Message when the active network connections are reset</comment>
+  </data>
+  <data name="ServiceManager_RestartService" xml:space="preserve">
+    <value>Starte Dienst '{0}' neu</value>
+    <comment>Log (verbose): Message when a service gets restarted</comment>
+  </data>
+  <data name="ServiceManager_RestartServiceFailed" xml:space="preserve">
+    <value>Fehler beim Neustarten des Dienstes '{0}'</value>
+    <comment>Log: Message when restarting of a service fails; {0} = service name</comment>
+  </data>
+  <data name="WsapmManager_RestartServicesAfterWake" xml:space="preserve">
+    <value>Starte Windows Dienste nach Aufwachen neu</value>
+    <comment>Log: Message when windows services are restarted</comment>
+  </data>
+  <data name="ProgramManager_FailedStartProgram" xml:space="preserve">
+    <value>Fehler beim Starten des Programms '{0}'</value>
+    <comment>Log: Message when starting a program failed; {0} = name of the program</comment>
+  </data>
+  <data name="ProgramManager_StartProgram" xml:space="preserve">
+    <value>Starte Programm '{0}'</value>
+    <comment>Log (verbose): Message when program gets started; {0} = name of the program</comment>
+  </data>
+  <data name="WsapmManager_StartProgramsAfterEveryWake" xml:space="preserve">
+    <value>Starte Programme nach Aufwachen</value>
+    <comment>Log: Message when programs are started after every wake</comment>
+  </data>
+  <data name="WsapmManager_StartProgramsAfterWake" xml:space="preserve">
+    <value>Starte Programme nach geplantem Aufwachen</value>
+    <comment>Log: Message when programs are started after wake</comment>
+  </data>
+  <data name="WakeScheduler_WakeSchedulerExpired" xml:space="preserve">
+    <value>-</value>
+    <comment>Next due time for expired WakeTimers</comment>
+  </data>
+  <data name="ActionAfterPolicyCheck_ActionModeAtLeastOnePolicySatisfied" xml:space="preserve">
+    <value>Mindestens eine Richtline trifft zu</value>
+    <comment>Action mode of after policy check action when at least one policy has to be satisfied</comment>
+  </data>
+  <data name="ActionAfterPolicyCheck_ActionModeNoPolicySatisfied" xml:space="preserve">
+    <value>Keine Richtlinie trifft zu</value>
+    <comment>Action mode of after policy check action when no policy is satisfied</comment>
+  </data>
+  <data name="ActionAfterPolicyCheck_ActionNameHibernate" xml:space="preserve">
+    <value>Ruhezustand</value>
+    <comment>Action name ('hibernate') after checking policies</comment>
+  </data>
+  <data name="ActionAfterPolicyCheck_ActionNameShutdown" xml:space="preserve">
+    <value>Herunterfahren</value>
+    <comment>Action name ('shut down') after checking policies</comment>
+  </data>
+  <data name="ActionAfterPolicyCheck_ActionNameStandby" xml:space="preserve">
+    <value>Standby</value>
+    <comment>Action name ('standby') after checking policies</comment>
+  </data>
+  <data name="ActionAfterPolicyCheck_ActionNameStartProgram" xml:space="preserve">
+    <value>Starte Programm</value>
+    <comment>Action name ('start program') after checking policies</comment>
+  </data>
+  <data name="ActionAfterPolicyCheckManager_ExecutingAction" xml:space="preserve">
+    <value>Führe benutzerdefinierte Aktion nach der Überprüfung aus ({0})</value>
+    <comment>Log: Message when a user defined action is executed; {0} = the action to be executed</comment>
+  </data>
+  <data name="WsapmManager_ExecuteActionWhenAtLeastOnePolicySatisfied" xml:space="preserve">
+    <value>Führe benutzerdefinierte Aktionen nach der Überprüfung aus (mindestens eine Richtlinie erfüllt)</value>
+    <comment>Log (verbose): Message when executing action when at least one policy is satisfied</comment>
+  </data>
+  <data name="WsapmManager_ExecuteActionWhenNoPolicySatisfied" xml:space="preserve">
+    <value>Führe benutzerdefinierte Aktionen nach der Überprüfung aus (keine Richtlinie erfüllt)</value>
+    <comment>Log (verbose): Message when executing action when no policy satisfied</comment>
+  </data>
+  <data name="PluginManifestReader_InvalidManifestError" xml:space="preserve">
+    <value>Ungültiges Manifest</value>
+    <comment>Exception text when a manifest is not valid</comment>
+  </data>
+  <data name="PuginLoader_ManifestMissingError" xml:space="preserve">
+    <value>Manifest für Plugin '{0}' kann nicht geladen werden</value>
+    <comment>Log (error) when a plugin manifest cannot be loaded; {0} = plugin name</comment>
+  </data>
+  <data name="ShutdownManager_Hibernate" xml:space="preserve">
+    <value>&gt;&gt;&gt; Computer wechselt in den Ruhezustand [Remote]</value>
+    <comment>Log: Message when system enters hibernate mode from remote command</comment>
+  </data>
+  <data name="ShutdownManager_Restart" xml:space="preserve">
+    <value>&gt;&gt;&gt; Computer wird neu gestartet [Remote]</value>
+    <comment>Log: Message when system is restarted from remote command</comment>
+  </data>
+  <data name="ShutdownManager_Shutdown" xml:space="preserve">
+    <value>&gt;&gt;&gt; Computer wird heruntergefahren [Remote]</value>
+    <comment>Log: Message when system is shut down from remote command</comment>
+  </data>
+  <data name="ShutdownManager_Standby" xml:space="preserve">
+    <value>&gt;&gt;&gt; Computer wechselt in den Standby-Modus [Remote]</value>
+    <comment>Log: Message when system enters standby mode from remote command</comment>
+  </data>
+  <data name="ShutdownManager_StartListening" xml:space="preserve">
+    <value>Remote-Shutdown: Warte auf Remote-Shutdown-Befehle auf UDP Port {0}</value>
+    <comment>Log (verbose): Message when ShutdownManager was started and is listening</comment>
+  </data>
+  <data name="ShutdownManager_StopListening" xml:space="preserve">
+    <value>Remote-Shutdown: Warte auf Remote-Shutdown-Befehle auf UDP Port {0} gestoppt</value>
+    <comment>Log (verbose): Message when ShutdownManager was stopped and is not listening for remote commands</comment>
+  </data>
+  <data name="ShutdownManager_WarningWrongPassword" xml:space="preserve">
+    <value>Remote-Shutdown-Befehl empfangen, aber mit falschem Passwort</value>
+    <comment>Log: Warning if a valid remmote shut down command was received, but with wring password</comment>
+  </data>
+  <data name="UptimeCheck_UptimeCheckTemporaryUptimeReason" xml:space="preserve">
+    <value>Temporäre Uptime definiert bis {0}</value>
+    <comment>Reason for suspending standby due to temporary defined uptime; {0} = DateTime until the temporary uptime was defined</comment>
+  </data>
+  <data name="UptimeManager_TemporaryUptimeUntil" xml:space="preserve">
+    <value>Temporäre Uptime definiert bis {0}</value>
+    <comment>Log entry when a temporary uptime was defined; {0} = Uptime until</comment>
+  </data>
+  <data name="TemporaryUptimeManager_DeleteTemporaryUptimeError" xml:space="preserve">
+    <value>Temporäre Uptime konnte nicht gelöscht werden</value>
+    <comment>Error message when deleting temporary uptime fails</comment>
+  </data>
+  <data name="TemporaryUptimeManager_LoadTemporaryUptimeError" xml:space="preserve">
+    <value>Fehler beim Laden der temporären Uptime</value>
+    <comment>Error message when loading temporary uptime fails</comment>
+  </data>
+  <data name="TemporaryUptimeManager_SaveTemporaryUptimeError" xml:space="preserve">
+    <value>Fehler beim Speichern der temporären Uptime</value>
+    <comment>Error message when saving temporary uptime file fails</comment>
+  </data>
+  <data name="TemporaryUptimeCheck_UptimeDefinedReason" xml:space="preserve">
+    <value>Temporäre Uptime bis {0}</value>
+    <comment>Reason for suspending standby due to temporary uptime; {0} = temporary uptime until</comment>
+  </data>
+  <data name="WsapmManager_TemporaryUptimeDefined" xml:space="preserve">
+    <value>Temporäre Uptime bis {0}</value>
+    <comment>Log (normal): temporary uptime; {0} = temporary uptime until</comment>
+  </data>
+  <data name="WsapmManager_TemporaryUptimeUnDefined" xml:space="preserve">
+    <value>Keine temporäre Uptime definiert (Uptime abgelaufen oder abgebrochen)</value>
+    <comment>Log (verbose): temporary uptime cancelled or exceeded</comment>
+  </data>
+  <data name="UptimeScheduler_UptimeSchedulerExpired" xml:space="preserve">
+    <value>-</value>
+    <comment>Next due time for expired UptimeSchedulers</comment>
+  </data>
+  <data name="ScheduledUptimeCheck_UptimeDefinedReason" xml:space="preserve">
+    <value>Geplante Uptime bis {0}</value>
+    <comment>Reason for suspending standby due to scheduled uptime; {0} = scheduled uptime until</comment>
+  </data>
+  <data name="WsapmManager_CheckScheduledUptimes" xml:space="preserve">
+    <value>Überprüfe geplante Uptimes</value>
+    <comment>Log(verbose): Message when scheduled uptimes are checked</comment>
+  </data>
+  <data name="NetworkLoadCheck_NicNotAvailable" xml:space="preserve">
+    <value>Netzwerkkarte '{0}' kann nicht gefunden werden</value>
+    <comment>Log: Message when a NIC cannot be found; {0} = NIC name</comment>
+  </data>
+  <data name="WsapmManager_DisplayNameAllNetworkInterfaces" xml:space="preserve">
+    <value>Alle Netzwerkkarten (gesamt)</value>
+    <comment>General display name for 'All network interfaces'</comment>
+  </data>
+  <data name="CpuLoadAverage_RetrieveLoadError" xml:space="preserve">
+    <value>Die CPU-Auslastung kann nicht ermittelt werden (evtl. sind die Performance Counter beschädigt)</value>
+    <comment>Error message when there is an exception retrieving the CPU load</comment>
+  </data>
+  <data name="MemoryLoadAverage_RetrieveLoadError" xml:space="preserve">
+    <value>Die Speicherauslastung kann nicht ermittelt werden</value>
+    <comment>Error message when there is an exception retrieving the memory load</comment>
+  </data>
+  <data name="NetworkLoadSingleNicAverage_RetrieveLoadError" xml:space="preserve">
+    <value>Die Netzwerkauslastung kann nicht ermittelt werden (evtl. sind die Performance Counter beschädigt)</value>
+    <comment>Error message when there is an exception retrieving the network load (average)</comment>
+  </data>
+  <data name="HddLoadSingleVolumeBase_LogicalVolumeCannotBeFound" xml:space="preserve">
+    <value>Das logische Volume '{0}' kann nicht gefunden werden</value>
+    <comment>Error message when a logical volume cannot be found; {0} = logical volume name</comment>
+  </data>
+  <data name="HddLoadSingleVolumeAverage_RetrieveLoadError" xml:space="preserve">
+    <value>Die HDD-Auslastung kann nicht ermittelt werden (evtl. sind die Performance Counter beschädigt)</value>
+    <comment>Error message when there is an exception retrieving the HDD load</comment>
+  </data>
+  <data name="MemoryLoadCheck_MemoryLoadCheckReason" xml:space="preserve">
+    <value>Speicherauslastung größer als {0}% ({1}%)</value>
+    <comment>Reason for suspending standby due to memory load; {0} = Target memory load; actual memory load</comment>
+  </data>
+  <data name="WsapmManager_CheckMemoryLoad" xml:space="preserve">
+    <value>Überprüfe Speicherauslastung</value>
+    <comment>Log(verbose): Message when memory load is checked</comment>
+  </data>
+  <data name="WsapmManager_DisplayNameAllDrives" xml:space="preserve">
+    <value>Alle Laufwerke (gesamt)</value>
+    <comment>Display name of 'All drives'</comment>
+  </data>
+  <data name="HddLoadCheck_HddLoadReason" xml:space="preserve">
+    <value>Auslastung logischer Datenträger [{0}] größer als {1} KB/s ({2} KB/s)</value>
+    <comment>Reason for suspending standby due to HDD activity; {0} = HDD name; {1} = HDD load in KB/s {2} = actual HDD load</comment>
+  </data>
+  <data name="HddLoadCheck_HddNotAvailable" xml:space="preserve">
+    <value>Logischer Datenträger '{0}' kann nicht gefunden werden</value>
+    <comment>Log: Message when a HDD cannot be found; {0} = HDD's name</comment>
+  </data>
+  <data name="WsapmManager_CheckHddLoad" xml:space="preserve">
+    <value>Überprüfe Auslastung logischer Datenträger</value>
+    <comment>Log(verbose): Message when HDD load is checked</comment>
+  </data>
+</root>
