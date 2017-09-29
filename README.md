@@ -47,6 +47,11 @@ Download the [user manual](https://decatec.de/?ddownload=1087) for a detailed de
 When downloading the setup, there may appear a warning that the software may be malicious (from browsers and/or Windows). This is due to the installer is not yet known to the browser, especially when a new version of the program was released.
 However, Windows Server Advanced Power Management does not contain any malware/spyware/adware!
 
+## Development
+In order to clone and build the project, you'll need:
+- Visual Studio 2010 or later
+- [WiX Toolset](http://wixtoolset.org/) (for building the installer)
+
 ## Plugins
 Windows Server Advanced Power Management offers a plugin interface to extend the program with own policies to check.
 
@@ -66,12 +71,7 @@ In order to uninstall a plugin, simply select it and click the button *Uninstall
 Everybody can develop own plugins for Windows Server Advanced Power Management. A detailed description for plugin development is also contained in the user manual.
 If you have developed your own plugin and want to offer it on this website, please contact the developer of WSAPM.
 
-To make plugin development really simple, there are two templates as Visual Studio Project (these templates require Windows Server Advanced Power Management version 1.3.0):
-
-| | |
-| - | - |
-| **Template for a simple plugin (without settings and UI)** | [WsapmPluginTemplate](https://decatec.de/?ddownload=1092) |
-| **Template for an advanced plugin( with settings and UI)** | [WsapmPluginAdvancedTemplate](https://decatec.de/?ddownload=1093) | 
+To make plugin development really simple, there are some templates available as Visual Studio Project (these templates require Windows Server Advanced Power Management version 1.3.0): [Wsapm-PluginTemplates @ GitHub](https://github.com/DecaTec/Wsapm-PluginTemplates)
 
 ## Screenshots
 
