@@ -58,7 +58,7 @@ namespace Wsapm
 
         private void HyperlinkExtendedWpfToolkit_Click(object sender, RoutedEventArgs e)
         {
-            ProcessStartInfo psi = new ProcessStartInfo("http://wpftoolkit.codeplex.com/");
+            ProcessStartInfo psi = new ProcessStartInfo("https://github.com/xceedsoftware/wpftoolkit");
             Process.Start(psi);
         }
 
