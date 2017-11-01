@@ -68,6 +68,7 @@ In order to uninstall a plugin, simply select it and click the button *Uninstall
 | [Removable Devices](https://github.com/DecaTec/Wsapm-RemovableDevices) | 1.1.0 | Plugin to suppress standby if any removable devices are present | [DecaTec](https://decatec.de) | 
 | [LoggedOnUsers](https://github.com/Seji64/LoggedOnUsersPlugin) | 1.0.2 | Plugin to suppress standby if defined users are logged on | [Seji](https://github.com/Seji64) | 
 | [PlexIsBusy](https://github.com/Seji64/PlexIsBusyPlugin) | 1.0.2 | Plugin to suppress standby if media is streamed by Plex | [Seji](https://github.com/Seji64) | 
+| [OpenNetworkConnections](https://github.com/ErdnussFlipS/WSAPM-OpenNetworkConnections) | 1.0.3.1 | Plugin to suppress standby if specified TCP connections are active | [ErdnussFlipS](https://github.com/ErdnussFlipS) | 
 
 ### Template for plugin development
 Everybody can develop own plugins for Windows Server Advanced Power Management. A detailed description for plugin development is also contained in the user manual.
