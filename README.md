@@ -1,3 +1,8 @@
+[![Release](https://img.shields.io/github/release/DecaTec/Wsapm/all.svg)](https://github.com/DecaTec/Wsapm/releases)
+[![GitHub Stats](https://img.shields.io/badge/github-stats-ff5500.svg)](http://githubstats.com/DecaTec/Wsapm)
+[![Microsoft Public License](https://img.shields.io/github/license/DecaTec/Wsapm.svg)](https://github.com/DecaTec/Wsapm/blob/master/LICENSE)
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMPESAJXPHH2U)
+
 # Windows Server Advanced Power Management
 
 Windows Server Advanced Power Management is an application for advanced power management on Windows (home) servers. Policies can be defined to prevent Windows to enter standby mode when the computer is still in use. Thereby, energy can be saved because the hardware is only running when it is actually required.
