@@ -99,7 +99,7 @@ To make plugin development really simple, there are some templates available as 
 **Settings – After policy check**
 ![Windows Server Advanced Power Management: Settings – After policy check](/Doc/en/Screenshots/Settings_AfterPolicyCheck.png "Windows Server Advanced Power Management: Settings – After policy check")
 
-** Settings – Wake**
+**Settings – Wake**
 ![Windows Server Advanced Power Management: Settings – Wake](/Doc/en/Screenshots/Settings_Wake.png "Windows Server Advanced Power Management: Settings – Wake")
 
 **Settings – Uptime**
