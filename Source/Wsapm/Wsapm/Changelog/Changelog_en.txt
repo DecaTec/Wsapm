@@ -1,4 +1,7 @@
-﻿v1.6.0.0 (10/01/2017):
+﻿v1.6.1 (10/17/2018):
+- Updated references for DotNetZip (vulnerability in old DotNetZip libraries)
+
+v1.6.0 (10/01/2017):
 - The project Windows Server Advanced Power Management is now available on GitHub: https://github.com/DecaTec/Wsapm
 - Windows Server Advanced Power Management now is open source
 - Updated links in about window
