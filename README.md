@@ -1,5 +1,4 @@
 [![Release](https://img.shields.io/github/release/DecaTec/Wsapm/all.svg)](https://github.com/DecaTec/Wsapm/releases)
-[![GitHub Stats](https://img.shields.io/badge/github-stats-ff5500.svg)](http://githubstats.com/DecaTec/Wsapm)
 [![Microsoft Public License](https://img.shields.io/github/license/DecaTec/Wsapm.svg)](https://github.com/DecaTec/Wsapm/blob/master/LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMPESAJXPHH2U)
 
