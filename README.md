@@ -1,3 +1,6 @@
+**Archived, moved to Codeberg: https://codeberg.org/DecaTec/Wsapm**
+
+
 [![Release](https://img.shields.io/github/release/DecaTec/Wsapm/all.svg)](https://github.com/DecaTec/Wsapm/releases)
 [![Microsoft Public License](https://img.shields.io/github/license/DecaTec/Wsapm.svg)](https://github.com/DecaTec/Wsapm/blob/master/LICENSE)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RMPESAJXPHH2U)
