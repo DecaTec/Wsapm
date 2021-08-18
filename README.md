@@ -1,4 +1,6 @@
-**Archived, moved to Codeberg: https://codeberg.org/DecaTec/Wsapm**
+### ⚠️ Archived, moved to Codeberg: https://codeberg.org/DecaTec/Wsapm ⚠️
+
+Thus, this GitHub repository is **outdated** and **not longer maintained on GitHub**. Please update your references.
 
 
 [![Release](https://img.shields.io/github/release/DecaTec/Wsapm/all.svg)](https://github.com/DecaTec/Wsapm/releases)
